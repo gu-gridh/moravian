@@ -1,0 +1,16 @@
+{
+  "name": "moravian",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julia Beck",
+  "license": "BSD-3-Clause",
+  "description": "Simple gulp tasks for css.",
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1"
+  }
+}

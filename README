@@ -1,0 +1,7 @@
+# Moravian Lives Sweden
+
+Django backend for the Swedish version of Moravian Lives.
+
+It uses the gridh-pages app to create simple static pages.
+
+

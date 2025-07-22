@@ -1,0 +1,20 @@
+# Environments
+.env
+
+# data
+fixtures
+
+# Django
+*.log
+*.pyc
+__pychache__
+db.sqlite3
+migrations
+
+# Deployment 
+*.sh
+static
+
+# gulp
+node_modules
+package-lock.json
