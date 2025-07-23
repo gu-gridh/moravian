@@ -14,9 +14,9 @@ from moravian.settings.common import *
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost','moravian.dh.gu.se']
+ALLOWED_HOSTS = ['moravian.dh.gu.se']
 
-CSRF_TRUSTED_ORIGINS = ['https://moravian.dh.gu.se','http://localhost:8080']
+CSRF_TRUSTED_ORIGINS = ['https://moravian.dh.gu.se']
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True

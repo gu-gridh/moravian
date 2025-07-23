@@ -27,9 +27,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv('SECRET_KEY')
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
 ALLOWED_HOSTS = []
 
 
@@ -42,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'gridh_pages',
+    'gridh_contact_forms',
 ]
 
 MIDDLEWARE = [
@@ -127,5 +126,12 @@ PAGES_PROJECT_INFO = {
     "PARTNERS": [
         {"name": "GU / GRIDH", "url": "https://dh.gu.se/"},
         {"name": "Bucknell University", "url": "https://www.bucknell.edu/"},
-    ] 
+    ]
 }
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = os.getenv('EMAIL_HOST')
+EMAIL_PORT = os.getenv('EMAIL_PORT')
+EMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS')
+EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')

@@ -3,5 +3,6 @@ python-dotenv<1.2
 Django<5.3
 gunicorn<24.0
 git+ssh://git@github.com/gu-gridh/gridh-pages.git@main#egg=gridh_pages
+git+ssh://git@github.com/gu-gridh/contact-form.git@package-version#egg=gridh_contact_forms&subdirectory=gridh_contact_forms
 # dev requirements
 django-debug-toolbar<5.3
