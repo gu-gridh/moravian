@@ -16,10 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from gridh_pages.views import PageView
 from debug_toolbar.toolbar import debug_toolbar_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('gridh_contact_forms.urls')),
+    path('', PageView.as_view(), {'slug': 'home'}, name='homepage'),
     path('pages/', include('gridh_pages.urls')),
 ] + debug_toolbar_urls()
