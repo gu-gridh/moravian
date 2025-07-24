@@ -39,12 +39,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_prose_editor',
     'rest_framework',
+    'corsheaders',
     'gridh_pages',
     'gridh_contact_forms',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -120,7 +123,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 PAGES_PROJECT_INFO = {
     "PROJECT_NAME": "Moravian Lives Sweden",
     "LINKS": [
-        {"name": "GitHub repositories and development", "url": "https://github.com/gu-gridh/", "type": "site-link"},
+        {"name": "GitHub repositories and development", "url": "https://github.com/gu-gridh/moravian", "type": "site-link"},
         {"name": "Download all transcription data", "url": "https://github.com/gu-gridh/", "type": "download-link"},
     ],
     "PARTNERS": [
@@ -128,10 +131,3 @@ PAGES_PROJECT_INFO = {
         {"name": "Bucknell University", "url": "https://www.bucknell.edu/"},
     ]
 }
-
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = os.getenv('EMAIL_HOST')
-EMAIL_PORT = os.getenv('EMAIL_PORT')
-EMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS')
-EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
