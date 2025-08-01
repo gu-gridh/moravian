@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'gridh_pages',
     'gridh_contact_forms',
+    'trxnviewer',
 ]
 
 MIDDLEWARE = [
@@ -120,14 +121,24 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 25
+}
+
 PAGES_PROJECT_INFO = {
     "PROJECT_NAME": "Moravian Lives Sweden",
     "LINKS": [
-        {"name": "GitHub repositories and development", "url": "https://github.com/gu-gridh/moravian", "type": "site-link"},
-        {"name": "Download all transcription data", "url": "https://github.com/gu-gridh/", "type": "download-link"},
+        {"label": "GitHub repositories and development", "url": "https://github.com/gu-gridh/moravian", "type": "site-link"},
+        {"label": "Fetch data via API", "url": "api/memoirs", "type": "download-link"},
+        {"label": "Download all transcription data", "url": "https://github.com/gu-gridh/", "type": "download-link"},
     ],
     "PARTNERS": [
-        {"name": "GU / GRIDH", "url": "https://dh.gu.se/"},
-        {"name": "Bucknell University", "url": "https://www.bucknell.edu/"},
-    ]
+        {"label": "GU / GRIDH", "url": "https://dh.gu.se/"},
+        {"label": "Bucknell University", "url": "https://www.bucknell.edu/"},
+    ],
+    "EXTRA_NAV_URLS": [
+        {"label": "Swedish Memoirs", "url": "/memoirs"},
+        {"label": "Contact", "url": "/contact"}
+    ],
 }

@@ -1,0 +1,31 @@
+{% extends "pages/base.html" %}
+
+{% block title %}{{ "Memoirs List" }}{% endblock %}
+
+{% block content %}
+<h1>Swedish Memoirs</h1>
+<div class="memoirflex">{% if memoir_list %}
+    {% for memoir in memoir_list %}        
+        <div class ="card {% if memoir.transcription_count %}transcribed{% endif %}">
+            <a href="{% url 'detail_memoir' memoir.id %}">
+                <h2>{{ memoir.author }}</h2>
+                <p>
+                    {% if memoir.start_date %}
+                        {% if memoir.date_precision == "exact" %}
+                            <strong>{{ memoir.start_date|date:"Y/m/d" }} - {{ memoir.end_date|date:"Y/m/d" }}</strong>
+                        {% else %}
+                            <strong>{{ memoir.start_date|date:"Y" }} - {{ memoir.end_date|date:"Y" }}</strong>
+                        {% endif %}{% endif %}<br>
+                    {{ memoir.image_count }} Images
+                {% if memoir.transcription_count %} 
+                   &amp; {{ memoir.transcription_count }} Transcriptions 
+                {% endif %}
+                </p>
+            </a>
+        </div>
+    {% endfor %}
+{% else %}
+    <p>No memoirs found.</p>
+{% endif %}</div>
+<p>[Transcriptions are marked with a triangle in the upper right corner.]</p>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "pages/base.html" %}
+
+{% block title %}{{ "Memoir" }}{% endblock %}
+
+{% block content %}
+<h1>{{ memoir.author }}</h1>
+{% if memoir.start_date %}
+    {% if memoir.date_precision == "exact" %}
+    <p>{{ memoir.start_date|date:"Y/m/d" }} - {{ memoir.end_date|date:"Y/m/d" }}</p>
+    {% else %}
+    <p>{{ memoir.start_date|date:"Y" }} - {{ memoir.end_date|date:"Y" }}</p>
+    {% endif %}
+{% endif %}
+<div class="memoirflex">{% if images %}
+    {% for image in images %}
+        <div class ="card imageflex{% if image.transcription %} 
+                   transcribed{% endif %}">
+            <a href="{% url 'detail_image' memoir.id image.id %}">
+                <h2>{{ image.page}}</h2>
+                <img class="thumbnail" src="{{ image.image_url }}" alt="Image {{ image.page }} in {{ memoir.author }}">                
+                </p>
+            </a>
+        </div>
+    {% endfor %}
+{% else %}
+    <p>No images found.</p>
+{% endif %}</div>
+{% if trxn_count %}
+<p>[Transcriptions are marked with a triangle in the upper right corner.]</p>
+{% endif %}
+{% endblock %}

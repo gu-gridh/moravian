@@ -1,0 +1,129 @@
+:root {
+    --contrast-color: #ed8e45;
+  }
+  
+
+body {
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+}
+
+main {
+    margin: auto;
+    width: 75%;
+    background: white;
+    padding: 1rem 4rem 5rem 4rem;
+    border-radius: 2px;
+}
+
+header div.title {
+    margin: auto;
+    width: 75%;
+}
+
+header div.title h1 {
+    color: white;
+}
+
+header div.title h2 {
+    color: var(--contrast-color);
+}
+
+nav ul {
+    margin: 2.5rem auto 1.5rem auto;
+    width: 75%;
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    opacity: 0.8;
+    border-bottom: 2px solid var(--contrast-color);
+}
+
+button[type=submit] {
+    background-color: var(--contrast-color);
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+}
+
+button[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.memoirflex {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+
+}
+
+.image-container {
+    display: flex;
+    gap: 4rem;
+}
+
+.image {
+    flex-basis: 50%;
+}
+
+.image a img {
+    max-width: 100%;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0 1.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card:hover a {
+    text-decoration: underline;
+}
+
+.imageflex {
+    flex-basis: 10%;
+}
+
+.thumbnail {
+    max-width: 100%;
+}
+
+.card.transcribed::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 2rem solid var(--contrast-color); 
+    border-left: 2rem solid transparent;
+}
