@@ -136,7 +136,7 @@ PAGES_PROJECT_INFO = {
     "PROJECT_NAME": "Moravian Lives Sweden",
     "LINKS": [
         {"label": "GitHub repositories and development", "url": "https://github.com/gu-gridh/moravian", "type": "site-link"},
-        {"label": "Fetch data via API", "url": "api/memoirs", "type": "download-link"},
+        {"label": "Fetch data via API", "url": "/api/memoirs", "type": "download-link"},
         {"label": "Download all transcription data", "url": "https://github.com/gu-gridh/", "type": "download-link"},
     ],
     "PARTNERS": [
