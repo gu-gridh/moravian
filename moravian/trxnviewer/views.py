@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.db.models import Count, Case, When, IntegerField
 from rest_framework import viewsets
+from django.views.decorators.cache import cache_page
 from .models import Memoir, MemoirImage
 from .serializers import MemoirSerializer
 
@@ -21,6 +22,7 @@ def index(request):
     return render(request, "trxnviewer/index.html", context)
 
 
+@cache_page(60 * 15)  # cache view for 15 minutes
 def detail_memoir(request, memoir_id):
     memoir = get_object_or_404(Memoir, pk=memoir_id)
     images = MemoirImage.objects.filter(memoir=memoir_id).prefetch_related(

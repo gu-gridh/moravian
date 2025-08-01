@@ -17,7 +17,7 @@
                    transcribed{% endif %}">
             <a href="{% url 'detail_image' memoir.id image.id %}">
                 <h2>{{ image.page}}</h2>
-                <img class="thumbnail" src="{{ image.image_url }}" alt="Image {{ image.page }} in {{ memoir.author }}">                
+                <img class="thumbnail" src="{{ image.image_url }}" loading="lazy" alt="Image {{ image.page }} in {{ memoir.author }}">                
                 </p>
             </a>
         </div>
