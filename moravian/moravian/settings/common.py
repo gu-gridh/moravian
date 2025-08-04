@@ -137,6 +137,7 @@ PAGES_PROJECT_INFO = {
         {"label": "GitHub repositories and development", "url": "https://github.com/gu-gridh/moravian", "type": "site-link"},
         {"label": "Fetch data via API", "url": "/api/memoirs", "type": "download-link"},
         {"label": "Download all transcription data", "url": "https://github.com/gu-gridh/", "type": "download-link"},
+        {"label": "Contact", "url": "https://www.gu.se/en/digital-humanities/about-us/contact", "type": "site-link"},
     ],
     "PARTNERS": [
         {"label": "GU / GRIDH", "url": "https://dh.gu.se/"},
@@ -144,5 +145,6 @@ PAGES_PROJECT_INFO = {
     ],
     "EXTRA_NAV_URLS": [
         {"label": "Swedish Memoirs", "url": "/memoirs"},
+        {"label": "Contact", "url": "https://www.gu.se/en/digital-humanities/about-us/contact"},
     ],
 }
