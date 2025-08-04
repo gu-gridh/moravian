@@ -31,7 +31,7 @@ def detail_memoir(request, memoir_id):
             When(transcription__isnull=False, then=1),
             default=0,
             output_field=IntegerField()
-            ))
+            )).order_by('page')
     trxn_count = images.aggregate(total=Count('transcription'))
     ['total']
     context = {"memoir": memoir, "images": images, 'trxn_count': trxn_count}
