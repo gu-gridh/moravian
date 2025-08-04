@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'gridh_pages',
-    'trxnviewer',
+    'trxnviewer.apps.TrxnviewerConfig',
 ]
 
 MIDDLEWARE = [
@@ -128,7 +128,16 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 25
+    'PAGE_SIZE': 25,
+    'DEFAULT_THROTTLE_CLASSES': [
+        'rest_framework.throttling.AnonRateThrottle',
+        'rest_framework.throttling.UserRateThrottle',
+    ],
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '10/hour',
+        'user': '100/hour',
+        'zip': '2/hour',
+    }
 }
 
 PAGES_PROJECT_INFO = {
@@ -136,7 +145,7 @@ PAGES_PROJECT_INFO = {
     "LINKS": [
         {"label": "GitHub repositories and development", "url": "https://github.com/gu-gridh/moravian", "type": "site-link"},
         {"label": "Fetch data via API", "url": "/api/memoirs", "type": "download-link"},
-        {"label": "Download all transcription data", "url": "https://github.com/gu-gridh/", "type": "download-link"},
+        {"label": "Download all transcription data", "url": "/memoirs-zip", "type": "download-link"},
         {"label": "Contact", "url": "https://www.gu.se/en/digital-humanities/about-us/contact", "type": "site-link"},
     ],
     "PARTNERS": [

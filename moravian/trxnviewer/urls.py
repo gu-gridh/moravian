@@ -12,4 +12,6 @@ urlpatterns = [
          name="detail_memoir"),
     path("memoirs/<int:memoir_id>/<int:image_id>", views.detail_image,
          name="detail_image"),
+    path("memoirs-zip", views.MemoirZipView.as_view(),
+         name='memoir_zip')
 ] + router.urls

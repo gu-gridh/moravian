@@ -3,6 +3,7 @@
 
 # data
 fixtures
+moravian/moravian/static/zip
 
 # Django
 *.log

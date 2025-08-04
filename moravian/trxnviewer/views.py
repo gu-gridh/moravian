@@ -1,7 +1,13 @@
+from pathlib import Path
 from django.shortcuts import render, get_object_or_404
 from django.db.models import Count, Case, When, IntegerField
-from rest_framework import viewsets
 from django.views.decorators.cache import cache_page
+from django.http import FileResponse, Http404
+from django.conf import settings
+from rest_framework import viewsets
+from rest_framework.views import APIView
+from rest_framework.permissions import AllowAny
+from rest_framework.throttling import ScopedRateThrottle
 from .models import Memoir, MemoirImage
 from .serializers import MemoirSerializer
 
@@ -11,6 +17,21 @@ class MemoirViewSet(viewsets.ReadOnlyModelViewSet):
         'images__transcription'
     ).order_by('id')
     serializer_class = MemoirSerializer
+
+
+class MemoirZipView(APIView):
+    permission_classes = [AllowAny]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = 'zip'
+
+    def get(self, request, *args, **kwargs):
+        zip_path = Path(settings.BASE_DIR) / 'static' / 'zip' \
+                        / 'swedish_moravian_data.zip'
+        if not zip_path.exists():
+            raise Http404("ZIP file not found")
+
+        return FileResponse(zip_path.open('rb'), as_attachment=True,
+                            filename='swedish_moravian_data.zip')
 
 
 def index(request):
