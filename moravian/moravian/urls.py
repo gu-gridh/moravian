@@ -22,7 +22,6 @@ from debug_toolbar.toolbar import debug_toolbar_urls
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', PageView.as_view(), {'slug': 'home'}, name='homepage'),
-    path('', include('gridh_contact_forms.urls')),
     path('', include('trxnviewer.urls')),
     path('pages/', include('gridh_pages.urls')),
 ] + debug_toolbar_urls()

@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'gridh_pages',
-    'gridh_contact_forms',
     'trxnviewer',
 ]
 
@@ -145,6 +144,5 @@ PAGES_PROJECT_INFO = {
     ],
     "EXTRA_NAV_URLS": [
         {"label": "Swedish Memoirs", "url": "/memoirs"},
-        {"label": "Contact", "url": "/contact"}
     ],
 }
