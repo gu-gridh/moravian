@@ -76,7 +76,8 @@ button[type=submit]:hover {
 }
 
 .image {
-    flex-basis: 50%;
+    min-width: 40%;
+    max-width: 40%;
 }
 
 .image a img {
