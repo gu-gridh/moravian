@@ -24,7 +24,8 @@ Run `npx gulp watch` every time you run the containers and change css files if n
 # Create sample data
 In the productive system, run 
 ```
-./manage.py shell
+conda activate moravian
+./manage.py shell --settings=moravian.settings.production
 >>> from trxnviewer.utils import dump_related_sample
 >>> dump_related_sample()
 ```
