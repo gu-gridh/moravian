@@ -34,7 +34,8 @@ class Author(EntityMixin):
 
 
 class Memoir(EntityMixin):
-    author = models.ForeignKey(Author, on_delete=models.RESTRICT)
+    author = models.ForeignKey(Author, on_delete=models.RESTRICT,
+                               related_name='authors')
     start_date = models.DateField(null=True, blank=True)
     end_date = models.DateField(null=True, blank=True)
     date_precision = models.CharField(

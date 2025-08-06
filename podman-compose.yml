@@ -1,0 +1,41 @@
+services:
+  db:
+    image: docker.io/library/postgres:16
+    environment:
+      POSTGRES_USER: moravianuser
+      POSTGRES_PASSWORD: moravian_test
+      POSTGRES_DB: moravian
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    expose:
+      - "5432"  # expose internally, avoid conflict with local Postgres
+    networks:
+      - internal
+
+  web:
+    build: .
+    container_name: django-app
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app/moravian/
+    depends_on:
+      - db
+    env_file:
+      - .env
+    environment:
+      - DJANGO_SETTINGS_MODULE=moravian.settings.development
+      - DB_LOCAL_NAME=moravian
+      - DB_LOCAL_USER=moravianuser
+      - DB_LOCAL_PASS=moravian_test
+      - HOST=db
+      - PORT=5432
+    networks:
+      - internal
+
+volumes:
+  pgdata:
+
+networks:
+  internal:
+    driver: bridge
