@@ -19,3 +19,10 @@ Assuming you have a current node version installed (repo is tested with node ver
 
 Run ´npx gulp watch´ every time you run the containers and change css files if needed. It should update automatically, delete your browser cache otherwise.
 
+# Create sample data
+In the productive system, run 
+´./manage.py shell
+>>> from trxnviewer.utils import dump_related_sample
+>>> dump_related_sample()
+´
+which creates the sample data in ´trxnviewer/fixtures´.
