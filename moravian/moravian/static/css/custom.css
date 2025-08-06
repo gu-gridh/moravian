@@ -130,3 +130,10 @@ button[type=submit]:hover {
     border-top: 2rem solid var(--contrast-color); 
     border-left: 2rem solid transparent;
 }
+
+form.search-form {
+    display: flex;
+    width: 50%;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}

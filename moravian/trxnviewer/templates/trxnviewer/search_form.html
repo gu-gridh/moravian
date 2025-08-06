@@ -1,0 +1,8 @@
+<form class="search-form" method="get">
+    <input type="text" id="query" name="query" value="{{ search_query }}">
+    <select name="type">
+        <option value="author" {% if type == 'author' %}selected{% endif %}>Author</option>
+         <option value="transcription" {% if type == 'transcription' %}selected{% endif %}>Transcription</option>
+    </select>
+    <button type="submit">Search</button>
+</form>

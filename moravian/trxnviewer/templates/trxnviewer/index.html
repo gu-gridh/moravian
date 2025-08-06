@@ -4,6 +4,7 @@
 
 {% block content %}
 <h1>Swedish Memoirs</h1>
+{% include "trxnviewer/search_form.html" %}
 <div class="memoirflex">{% if memoir_list %}
     {% for memoir in memoir_list %}        
         <div class ="card {% if memoir.transcription_count %}transcribed{% endif %}">

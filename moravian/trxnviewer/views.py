@@ -35,11 +35,23 @@ class MemoirZipView(APIView):
 
 
 def index(request):
-    memoir_list = Memoir.objects.select_related('author').prefetch_related(
+    memoir_list = Memoir.objects.all().select_related('author').prefetch_related(
         'images__transcription').annotate(
         image_count=Count('images', distinct=True),
         transcription_count=Count('images__transcription', distinct=True))
-    context = {"memoir_list": memoir_list}
+
+    search_query = request.GET.get('query', '')
+    selected_type = request.GET.get('type', 'author')
+
+    if search_query:
+        if selected_type == 'author':
+            memoir_list = memoir_list.filter(author__name__icontains=search_query)
+        if selected_type == 'transcription':
+            memoir_list = memoir_list.filter(images__transcription__text__icontains=search_query)
+
+    context = {"memoir_list": memoir_list,
+               "search_query": search_query,
+               "type": selected_type}
     return render(request, "trxnviewer/index.html", context)
 
 
