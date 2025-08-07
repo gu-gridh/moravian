@@ -10,7 +10,7 @@ DB_LOCAL_PASS, HOST, PORT, DJANGO_SETTINGS_MODULE as in podman-compose.yml. Then
 ```
 podman-compose up --build
 ```
-in the same folder as the podman-compose file. Wait for the containers to build and load the sample data (this might take a while).
+in the same folder as the podman-compose file. Wait for the containers to build (it also loads sample data so it might take a while).
 Go to `localhost:8000` to see the running django instance.
 
 The container reacts to changes in the repository as the project folder is loaded as a volume.
