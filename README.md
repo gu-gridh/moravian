@@ -5,12 +5,12 @@ Django backend for the Swedish version of Moravian Lives.
 It uses the gridh-pages app to create simple static pages.
 
 # Run in Container
-Install `podman-compose` if you haven't already. It works best with a .env file in the moravian folder with the same values for DB_LOCAL_NAME, DB_LOCAL_USER, 
-DB_LOCAL_PASS, HOST, PORT, DJANGO_SETTINGS_MODULE as in podman-compose.yml. Then run
+Install `podman-compose` if you haven't already. It works best with a .env file in the moravian/moravian/moravian folder with the same values for DB_LOCAL_NAME, DB_LOCAL_USER, 
+DB_LOCAL_PASS, HOST, PORT, DJANGO_SETTINGS_MODULE as well as a SECRET_KEY as in podman-compose.yml. Then run
 ```
 podman-compose up --build
 ```
-in the same folder as the podman-compose file. Wait for the containers to build and load the sample data (this might take a while).
+in the same folder as the podman-compose file. Wait for the containers to build (it also loads sample data so it might take a while).
 Go to `localhost:8000` to see the running django instance.
 
 The container reacts to changes in the repository as the project folder is loaded as a volume.
