@@ -12,9 +12,6 @@ __pychache__
 db.sqlite3
 migrations
 
-# Deployment 
-*.sh
-
 # gulp
 node_modules
 package-lock.json
