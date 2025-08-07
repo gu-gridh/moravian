@@ -6,7 +6,7 @@ It uses the gridh-pages app to create simple static pages.
 
 # Run in Container
 Install `podman-compose` if you haven't already. It works best with a .env file in the moravian/moravian/moravian folder with the same values for DB_LOCAL_NAME, DB_LOCAL_USER, 
-DB_LOCAL_PASS, HOST, PORT, DJANGO_SETTINGS_MODULE as in podman-compose.yml. Then run
+DB_LOCAL_PASS, HOST, PORT, DJANGO_SETTINGS_MODULE as well as a SECRET_KEY as in podman-compose.yml. Then run
 ```
 podman-compose up --build
 ```
