@@ -9,6 +9,8 @@ echo "Postgres ready. Do migrations and load data..."
 python moravian/moravian/manage.py migrate
 python moravian/moravian/manage.py makemigrations pages
 python moravian/moravian/manage.py migrate pages
+python moravian/moravian/manage.py makemigrations trxnviewer
+python moravian/moravian/manage.py migrate trxnviewer
 
 # Create superuser if it doesn't exist
 echo "
