@@ -162,6 +162,14 @@ body {
     background-size:100%;
 }
 
+@media screen and (max-width: 1000px) {
+body {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size:1000px 500px;
+}
+}
+
 main {
     width: calc(100% - 8rem);
     background: #fff;
@@ -228,6 +236,18 @@ header div.title h2 {
     border-width: 0 0 0 1px;
     border-color: white;
     padding-left: 20px;
+}
+
+@media screen and (max-width: 700px) {
+header div.title h1 {
+  width: 150px;
+    font-size: 2em;
+  
+}
+
+header div.title h2 {
+    font-size: 1.2em;
+}
 }
 
 nav ul {
@@ -297,7 +317,7 @@ button[type=submit]:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-basis: 25%;
+    flex-basis: 28%;
     align-items: end;
     overflow: hidden;
     position: relative;
