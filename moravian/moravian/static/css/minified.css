@@ -407,7 +407,6 @@ button[type=submit]:hover {
     background-color: transparent;
     margin-bottom: 30px;
     margin-top:0px;
-
     margin-right:10px;
       
 
@@ -424,6 +423,20 @@ button[type=submit]:hover {
     position: relative;
     margin-left: 0px;
     margin-bottom: 0px;
+      animation-duration: 1s;
+  animation-name: pop-up;
+}
+
+@keyframes pop-up {
+  from {
+    scale: 0% 0%;
+    opacity:0;
+  }
+
+  to {
+    scale: 100% 100%;
+        opacity:1;
+  }
 }
 
 .card img {
@@ -447,6 +460,7 @@ button[type=submit]:hover {
     content: '';
     position: absolute;
     top: 10px;
+      bottom: auto;
     right: 10px;
     width: 40px;
     height: 40px;
@@ -458,19 +472,3 @@ button[type=submit]:hover {
     background-repeat: no-repeat;
 }
 
-.card.imageflex.transcribed::after {
-    content: '';
-    position: absolute;
-    top:auto;
-    bottom: 40px !important;
-    right: 10px;
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    border-radius: 50%;
-    background-image: url(../images/transcribed.png);
-    background-size: 70%;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
-}
