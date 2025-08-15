@@ -137,3 +137,7 @@ form.search-form {
     gap: 0.5rem;
     margin-bottom: 1rem;
 }
+
+header div.title h1{
+    color:red!important;
+}
