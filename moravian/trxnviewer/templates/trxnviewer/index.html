@@ -6,9 +6,10 @@
 <h1>Swedish Memoirs</h1>
 {% include "trxnviewer/search_form.html" %}
 <div class="memoirflex">{% if memoir_list %}
-    {% for memoir in memoir_list %}        
+    {% for memoir in memoir_list %}  
+     <a href="{% url 'detail_memoir' memoir.id %}">
         <div class ="card {% if memoir.transcription_count %}transcribed{% endif %}">
-            <a href="{% url 'detail_memoir' memoir.id %}">
+           
                 <h2>{{ memoir.author }}</h2>
                 <p>
                     {% if memoir.start_date %}
@@ -22,8 +23,9 @@
                    &amp; {{ memoir.transcription_count }} Transcriptions 
                 {% endif %}
                 </p>
-            </a>
+          
         </div>
+           </a>
     {% endfor %}
 {% else %}
     <p>No memoirs found.</p>
