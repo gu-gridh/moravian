@@ -11,7 +11,8 @@
     <h3>{{ memoir.start_date|date:"Y" }} - {{ memoir.end_date|date:"Y" }}</h3>
     {% endif %}
 {% endif %}
-<div class="memoirflex">{% if images %}
+<p class="note">Transcribed pages are marked with an icon.</p>
+<div class="pageflex">{% if images %}
     {% for image in images %}
         <div class ="card imageflex{% if image.transcription %} 
                    transcribed{% endif %}">
@@ -26,6 +27,6 @@
     <p>No images found.</p>
 {% endif %}</div>
 {% if trxn_count %}
-<p>[Transcriptions are marked with a triangle in the upper right corner.]</p>
+
 {% endif %}
 {% endblock %}
