@@ -25,6 +25,11 @@ footer {
     font-family: "Barlow Condensed", sans-serif;
 }
 
+@media screen and (max-width: 1100px) {
+    footer {
+    display: none;
+    }
+
 div.footer-content {
     display: flex;
     justify-content: space-between;

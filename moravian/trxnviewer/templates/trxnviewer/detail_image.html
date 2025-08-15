@@ -6,9 +6,9 @@
 <h1>{{ memoir.author }}</h1>
 {% if memoir.start_date %}
     {% if memoir.date_precision == "exact" %}
-    <p>{{ memoir.start_date|date:"Y/m/d" }} - {{ memoir.end_date|date:"Y/m/d" }}</p>
+    <h3>{{ memoir.start_date|date:"Y/m/d" }} - {{ memoir.end_date|date:"Y/m/d" }}</h3>
     {% else %}
-    <p>{{ memoir.start_date|date:"Y" }} - {{ memoir.end_date|date:"Y" }}</p>
+    <h3>{{ memoir.start_date|date:"Y" }} - {{ memoir.end_date|date:"Y" }}</h3>
     {% endif %}
 {% endif %}
 <h2>{{ image.page }}</h2>

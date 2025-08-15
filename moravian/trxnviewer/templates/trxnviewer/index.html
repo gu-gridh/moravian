@@ -6,29 +6,30 @@
 <h1>Swedish Memoirs</h1>
 {% include "trxnviewer/search_form.html" %}
 <div class="memoirflex">{% if memoir_list %}
-    {% for memoir in memoir_list %}  
-     <a href="{% url 'detail_memoir' memoir.id %}">
-        <div class ="card {% if memoir.transcription_count %}transcribed{% endif %}">
-           
-                <h2>{{ memoir.author }}</h2>
-                <p>
-                    {% if memoir.start_date %}
-                        {% if memoir.date_precision == "exact" %}
-                            <strong>{{ memoir.start_date|date:"Y/m/d" }} - {{ memoir.end_date|date:"Y/m/d" }}</strong>
-                        {% else %}
-                            <strong>{{ memoir.start_date|date:"Y" }} - {{ memoir.end_date|date:"Y" }}</strong>
-                        {% endif %}{% endif %}<br>
-                    {{ memoir.image_count }} Images
-                {% if memoir.transcription_count %} 
-                   &amp; {{ memoir.transcription_count }} Transcriptions 
-                {% endif %}
-                </p>
-          
-        </div>
-           </a>
+    {% for memoir in memoir_list %}
+
+    <div class="card {% if memoir.transcription_count %}transcribed{% endif %}">
+        <a href="{% url 'detail_memoir' memoir.id %}">
+        <h2>{{ memoir.author }}</h2>
+        <p>
+            {% if memoir.start_date %}
+            {% if memoir.date_precision == "exact" %}
+            <strong>{{ memoir.start_date|date:"Y/m/d" }} - {{ memoir.end_date|date:"Y/m/d" }}</strong>
+            {% else %}
+            <strong>{{ memoir.start_date|date:"Y" }} - {{ memoir.end_date|date:"Y" }}</strong>
+            {% endif %}{% endif %}<br>
+            {{ memoir.image_count }} Images
+            {% if memoir.transcription_count %}
+            &amp; {{ memoir.transcription_count }} Transcriptions
+            {% endif %}
+        </p>
+        </a>
+    </div>
+
     {% endfor %}
-{% else %}
+    {% else %}
     <p>No memoirs found.</p>
-{% endif %}</div>
+    {% endif %}
+</div>
 <p>[Transcriptions are marked with a triangle in the upper right corner.]</p>
 {% endblock %}
