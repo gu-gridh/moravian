@@ -14,11 +14,6 @@ body {
     height: 100%;
 }
 
-header {
-    width: auto;
-    padding-left: 4rem;
-
-}
 
 footer {
     display: block;
@@ -32,12 +27,6 @@ footer {
     z-index: 3000;
     bottom: -2px;
     font-family: "Barlow Condensed", sans-serif
-}
-
-@media screen and (max-width: 950px) {
-    footer {
-        display: none;
-    }
 }
 
 div.footer-content {
@@ -112,13 +101,10 @@ form.search-form {
     align-items: center;
 }
 
-@media screen and (max-width: 1100px) {
-    form.search-form {
-        display: flex;
-        width: 100% !important;
-        gap: .5rem;
-        margin-bottom: 1rem;
-    }
+.form-controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 select {
@@ -131,6 +117,7 @@ button {
     font-size: 0.8em;
     padding: 0px;
     padding: 10px 20px !important;
+    margin-left: 20px;
 }
 
 input[type=email],
@@ -165,21 +152,13 @@ body {
     background-size: 100%;
 }
 
-@media screen and (max-width: 1000px) {
-    body {
-        background-image: url(../images/header.jpg);
-        background-repeat: no-repeat;
-        background-size: 1000px 500px;
-    }
-}
-
 main {
     width: calc(100% - 8rem);
     background: #fff;
     padding: 1rem 4rem 9rem 4rem;
     border-radius: 40px 40px 0px 0px;
     margin: 0;
-    min-height:calc(100vh - 500px);
+    min-height: calc(100vh - 500px);
 
 }
 
@@ -196,12 +175,6 @@ main p {
     margin-bottom: 12px;
 }
 
-@media screen and (max-width: 1100px) {
-    main .content {
-        columns: 1;
-        column-gap: 40px;
-    }
-}
 
 title {
     width: auto;
@@ -241,22 +214,21 @@ header div.title h2 {
     padding-left: 20px;
 }
 
-@media screen and (max-width: 700px) {
-    header div.title h1 {}
 
-    header div.title h2 {
-        display: none;
-        font-size: 1.2em;
-    }
-}
 
 nav ul {
     margin: 0.5rem 0 1.5rem 0;
-    width: 75%;
+    width: 100%;
     display: flex;
     gap: 1.5rem;
     list-style: none;
     padding-left: 0
+}
+
+header {
+    width: auto;
+    padding-left: 4rem;
+
 }
 
 nav ul li a {
@@ -269,6 +241,7 @@ nav ul li a:hover {
     opacity: .8;
     border-bottom: 2px solid var(--contrast-color)
 }
+
 
 button[type=submit] {
     background-color: var(--contrast-color);
@@ -297,110 +270,87 @@ button[type=submit]:hover {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: last baseline;
-  justify-content: flex-start!important;
+    justify-content: flex-start !important;
     margin-bottom: 2rem
 }
 
-.image-layout-container{
-       display: flex;
-       flex-direction: row;
-       padding-top:50px;
-}
-
-@media screen and (max-width: 900px) {
-
-.image-layout-container{
-
-       flex-direction: column;
-       padding-top:50px;
-}
-}
-.image-container {
-width:50%;
-}
-
-.image-info-container {
-    width:50%;
+.image-layout-container {
     display: flex;
-     flex-direction: column;
-     justify-content: flex-start;
-    gap: 0rem;
-    padding-left:40px;
-    margin:0;
-}
-
-@media screen and (max-width: 900px) {
-
-.image-layout-container{
-
-       flex-direction: column;
-       padding-top:50px;
+    flex-direction: row;
+    padding-top: 50px;
 }
 
 .image-container {
-width:100%;
+    width: 50%;
 }
 
 .image-info-container {
-    width:100%;
-     padding-left:0px;
-     padding-top:30px;
-}
-}
-
-.image-info-container h1,h2,h3,h4{
-    line-height:1.0;
-    margin:0;
-    padding-bottom:5px;
-
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0rem;
+    padding-left: 40px;
+    margin: 0;
 }
 
-.image-info-container h4{
-    margin-top:30px;
+.image-info-container h1,
+h2,
+h3,
+h4 {
+    line-height: 1.0;
+    margin: 0;
+    padding-bottom: 5px;
+
+}
+
+.image-info-container h4 {
+    margin-top: 30px;
     text-transform: capitalize;
     font-weight: 400;
     font-size: 1.2em;
 }
 
-.transcription{
-    margin-top:5px;
+.transcription {
+    margin-top: 5px;
 }
 
-.transcription h2{
-    margin-bottom:5px;
+.transcription h2 {
+    margin-bottom: 5px;
 }
 
-.transcription p{
-  margin:0;
-    margin-bottom:5;
+.transcription p {
+    margin: 0;
+    margin-bottom: 5;
 }
 
-.image-info-container a{
+.image-info-container a {
     text-decoration: none;
 }
 
-.edit-button{
-    cursor:pointer;
-    margin-top:20px;
-    border-radius:6px;
-    padding:5px 10px;
+.edit-button {
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 8px 10px;
     background-color: var(--contrast-color);
-    color:white;
-    font-size:90%;
+    color: white;
+    font-size: 80%;
     text-align: center;
-    width:120px;
+    width: 110px;
+    font-weight: 400;
 }
 
-.edit-button:hover{
-   opacity:0.8;
+.edit-button:hover {
+    opacity: 0.8;
 }
 
 
 .image {
     min-width: 100%;
     max-width: 100%;
-    border-radius:10px;
-    overflow:hidden;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .image a img {
@@ -425,18 +375,6 @@ width:100%;
     position: relative;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
-}
-
-@media screen and (max-width: 1100px) {
-    .card {
-        flex-basis: 40%;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .card {
-        flex-basis: 100%;
-    }
 }
 
 .card:hover {
@@ -490,23 +428,23 @@ width:100%;
 .card.imageflex {
     margin: 0px;
     padding: 0px;
-     flex-basis:  auto;
-    width:150px;
+    flex-basis: auto;
+    width: 150px;
     height: 250px;
     bottom: 0px;
     left: 0px;
     overflow: visible;
     background-color: transparent;
     margin-bottom: 30px;
-    margin-top:0px;
-    margin-right:10px;
-      
+    margin-top: 0px;
+    margin-right: 10px;
+
 
 }
 
 .thumbnail {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    border-radius:5px;
+    border-radius: 5px;
     width: 100%;
     height: auto;
     margin: 0px;
@@ -515,24 +453,24 @@ width:100%;
     position: relative;
     margin-left: 0px;
     margin-bottom: 0px;
-      animation-duration: 1s;
-  animation-name: pop-up;
+    animation-duration: 1s;
+    animation-name: pop-up;
 }
 
 @keyframes pop-up {
-  from {
-    scale: 0% 0%;
-    opacity:0;
-  }
+    from {
+        scale: 0% 0%;
+        opacity: 0;
+    }
 
-  to {
-    scale: 100% 100%;
-        opacity:1;
-  }
+    to {
+        scale: 100% 100%;
+        opacity: 1;
+    }
 }
 
 .card img {
-   transform:scale(1.0)!important;
+    transform: scale(1.0) !important;
 }
 
 .card.imageflex h2 {
@@ -552,7 +490,7 @@ width:100%;
     content: '';
     position: absolute;
     top: 10px;
-      bottom: auto;
+    bottom: auto;
     right: 10px;
     width: 40px;
     height: 40px;
@@ -564,5 +502,109 @@ width:100%;
     background-repeat: no-repeat;
 }
 
+/* Small screen adaptation */
+
+@media screen and (max-width: 1100px) {
+      main .content {
+        columns: 1;
+        column-gap: 40px;
+    }
+
+    .card {
+        flex-basis: 40%;
+    }
+
+        form.search-form {
+        display: flex;
+        width: 100% !important;
+        gap: .5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-size: 1000px 500px;
+    }
+}
 
 
+@media screen and (max-width: 950px) {
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+      .card {
+        flex-basis: 100%;
+    }
+
+    .image-layout-container {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .image-info-container {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    header {
+        padding-left: 1.5rem;
+
+    }
+
+    header div.title h2 {
+        display: none;
+        font-size: 1.2em;
+    }
+
+    nav ul {
+        margin: 0.5rem 0 1.5rem 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        list-style: none;
+        padding-left: 0
+    }
+
+
+    main {
+        width: calc(100% - 3rem);
+        padding: 1rem 1.5rem 9rem 1.5rem;
+        min-height: calc(10vh);
+    }
+
+    form.search-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: calc(100%) !important;
+        min-width: auto !important;
+        gap: .5rem;
+        margin-bottom: 1rem;
+    }
+
+    select {
+        margin-left: 0px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    button {
+        margin-left: 20px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+}
