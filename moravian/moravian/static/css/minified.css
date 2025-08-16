@@ -222,6 +222,7 @@ header div.title h2 {
     border-style: dotted;
     border-width: 0 0 0 1px;
     border-color: white;
+        padding:0px;
     padding-left: 20px;
 }
 
