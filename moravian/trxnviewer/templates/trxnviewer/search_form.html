@@ -1,7 +1,7 @@
 <form class="search-form" method="get">
     <input type="text" id="query" name="query" value="{{ search_query }}">
     <div class="form-controls">
-    <select name="type">
+    <select name="type" class="dropdown">
         <option value="author" {% if type == 'author' %}selected{% endif %}>Author</option>
          <option value="transcription" {% if type == 'transcription' %}selected{% endif %}>Transcription</option>
     </select>

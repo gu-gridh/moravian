@@ -108,9 +108,18 @@ form.search-form {
 }
 
 select {
-    margin-left: 0px;
-    height: 50px;
+ 
+    height: 40px;
+    
 }
+
+ .dropdown{
+       margin-left: 10px;
+        background-color:white;
+        font-size: 14px;
+        border-color:grey;
+        border-width:0.5px;
+    }
 
 button {
     height: 40px;
@@ -321,7 +330,7 @@ h4 {
 
 .transcription p {
     margin: 0;
-    margin-bottom: 5;
+    margin-bottom: 8px;
 }
 
 .image-info-container a {
@@ -598,9 +607,10 @@ h4 {
 
     select {
         margin-left: 0px;
-        height: 40px;
+        height: 40px!important;
         border-radius: 5px;
     }
+
 
     button {
         margin-left: 20px;
