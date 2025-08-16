@@ -187,7 +187,6 @@ main {
 main .content {
     columns: 2;
     column-gap: 40px;
-
 }
 
 main p {
@@ -364,7 +363,16 @@ width:100%;
 }
 
 .transcription{
-    margin-top:0px;
+    margin-top:5px;
+}
+
+.transcription h2{
+    margin-bottom:5px;
+}
+
+.transcription p{
+  margin:0;
+    margin-bottom:5;
 }
 
 .image-info-container a{
