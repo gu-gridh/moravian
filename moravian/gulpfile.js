@@ -6,6 +6,7 @@ const paths = {
   css: [
     'moravian/static/css/gridh.css',
     'moravian/static/css/custom.css',
+    'moravian/static/css/mobile.css',
   ],
   output: 'moravian/static/css/'
 };
