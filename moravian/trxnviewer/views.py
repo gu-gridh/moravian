@@ -1,6 +1,6 @@
 from pathlib import Path
 from django.shortcuts import render, get_object_or_404
-from django.db.models import Count, Case, When, IntegerField
+from django.db.models import Count, Case, When, IntegerField, Q
 from django.views.decorators.cache import cache_page
 from django.http import FileResponse, Http404
 from django.conf import settings
@@ -39,6 +39,7 @@ def index(request):
         'images__transcription').annotate(
         image_count=Count('images', distinct=True),
         transcription_count=Count('images__transcription', distinct=True))
+    filtered_images = []
 
     search_query = request.GET.get('query', '')
     selected_type = request.GET.get('type', 'author')
@@ -48,8 +49,12 @@ def index(request):
             memoir_list = memoir_list.filter(author__name__icontains=search_query)
         if selected_type == 'transcription':
             memoir_list = memoir_list.filter(images__transcription__text__icontains=search_query)
+            filtered_images = MemoirImage.objects.filter(
+                Q(memoir__in=memoir_list),
+                Q(transcription__text__icontains=search_query)).prefetch_related('transcription')
 
     context = {"memoir_list": memoir_list,
+               "filtered_images": filtered_images,
                "search_query": search_query,
                "type": selected_type}
     return render(request, "trxnviewer/index.html", context)
@@ -67,7 +72,7 @@ def detail_memoir(request, memoir_id):
             )).order_by('page')
     trxn_count = images.aggregate(total=Count('transcription'))
     ['total']
-    context = {"memoir": memoir, "images": images, 'trxn_count': trxn_count}
+    context = {"memoir": memoir, "images": images, "trxn_count": trxn_count}
     return render(request, "trxnviewer/detail_memoir.html", context)
 
 

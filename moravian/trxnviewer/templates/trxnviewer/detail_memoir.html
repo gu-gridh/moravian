@@ -12,20 +12,22 @@
     {% endif %}
 {% endif %}
 <p class="note">Transcribed pages are marked with an icon.</p>
-<div class="pageflex">{% if images %}
+{% if images %}
+    <div class="pageflex">
     {% for image in images %}
         <div class ="card imageflex{% if image.transcription %} 
                    transcribed{% endif %}">
             <a href="{% url 'detail_image' memoir.id image.id %}">
                 <h2>{{ image.page}}</h2>
-                <img class="thumbnail" src="{{ image.image_url }}" loading="lazy" alt="Image {{ image.page }} in {{ memoir.author }}">                
+                <img class="thumbnail" src="{{ image.thumb_url }}" loading="lazy" alt="Image {{ image.page }} in {{ memoir.author }}">                
                 </p>
             </a>
         </div>
     {% endfor %}
+    </div>
 {% else %}
     <p>No images found.</p>
-{% endif %}</div>
+{% endif %}
 {% if trxn_count %}
 
 {% endif %}

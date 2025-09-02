@@ -6,30 +6,42 @@
 <h1>Swedish Memoirs</h1>
 {% include "trxnviewer/search_form.html" %}
 <p class="note">Partially transcribed memoirs are marked with an icon.</p>
-<div class="memoirflex">{% if memoir_list %}
-    {% for memoir in memoir_list %}
-
-    <div class="card {% if memoir.transcription_count %}transcribed{% endif %}">
-        <a href="{% url 'detail_memoir' memoir.id %}">
-        <h2>{{ memoir.author }}</h2>
-        <p>
-            {% if memoir.start_date %}
-            {% if memoir.date_precision == "exact" %}
-            <strong>{{ memoir.start_date|date:"Y/m/d" }} - {{ memoir.end_date|date:"Y/m/d" }}</strong>
-            {% else %}
-            <strong>{{ memoir.start_date|date:"Y" }} - {{ memoir.end_date|date:"Y" }}</strong>
-            {% endif %}{% endif %}<br>
-            {{ memoir.image_count }} Images
-            {% if memoir.transcription_count %}
-            &amp; {{ memoir.transcription_count }} Transcriptions
-            {% endif %}
-        </p>
-        </a>
-    </div>
-
+{% if filtered_images %}
+    <div class="pageflex">
+    {% for image in filtered_images %}
+        <div class ="card imageflex transcribed">
+            <a href="{% url 'detail_image' image.memoir.id image.id %}">        
+                <h2>{{ image.memoir.author }}</h2>                
+                <img class="thumbnail" src="{{ image.thumb_url }}" loading="lazy" alt="Image {{ image.page }} in {{ image.memoir.author }}">
+                <p>{{ image.page }}</p>
+            </a>
+        </div>
     {% endfor %}
+    </div>
+    {% elif memoir_list %}
+    <div class="memoirflex">
+        {% for memoir in memoir_list %}
+    
+        <div class="card {% if memoir.transcription_count %}transcribed{% endif %}">
+            <a href="{% url 'detail_memoir' memoir.id %}">
+            <h2>{{ memoir.author }}</h2>
+            <p>
+                {% if memoir.start_date %}
+                {% if memoir.date_precision == "exact" %}
+                <strong>{{ memoir.start_date|date:"Y/m/d" }} - {{ memoir.end_date|date:"Y/m/d" }}</strong>
+                {% else %}
+                <strong>{{ memoir.start_date|date:"Y" }} - {{ memoir.end_date|date:"Y" }}</strong>
+                {% endif %}{% endif %}<br>
+                {{ memoir.image_count }} Images
+                {% if memoir.transcription_count %}
+                &amp; {{ memoir.transcription_count }} Transcriptions
+                {% endif %}
+            </p>
+            </a>
+        </div>
+        {% endfor %}
+        </div>    
     {% else %}
     <p>No memoirs found.</p>
     {% endif %}
-</div>
 {% endblock %}
