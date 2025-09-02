@@ -34,7 +34,9 @@
             {% else %}
     <p>No transcription available.</p>
         {% endif %}
+        {% if request.user.is_authenticated %}
            <a href="https://moravian.dh.gu.se/admin/trxnviewer/memoirimage/{{ image.id }}"><div class="edit-button">Edit transcription</div></a>
+        {% endif %}
     </div>
 </div>
 {% endblock %}
