@@ -77,8 +77,8 @@ class MemoirImage(EntityMixin):
 class Transcription(EntityMixin):
     text = ProseEditorField(blank=True,
         extensions={"Bold": True, "Italic": True, "Underline": True,
-                    "BulletList": True, "OrderedList": True, "Strike": True,
-                    "Subscript": True, "Superscript": True
+                    "ListItem": True, "BulletList": True, "OrderedList": True,
+                    "Strike": True, "Subscript": True, "Superscript": True
         },
         sanitize=True)
     image = models.OneToOneField(MemoirImage, on_delete=models.CASCADE,
