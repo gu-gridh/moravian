@@ -2,7 +2,7 @@
 .env
 
 # data
-moravian/moravian/static/zip
+moravian/moravian/static
 moravian/moravian/static_build
 
 # Django

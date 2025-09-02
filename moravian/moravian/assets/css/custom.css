@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(../images/header.jpg);
+    background-image: url(../public/header.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -350,9 +350,14 @@ h4 {
     height: 40px;
     background-color: white;
     border-radius: 50%;
-    background-image: url(../images/transcribed.png);
+    background-image: url(../public/transcribed.png);
     background-size: 60%;
     background-position: 50%;
     background-repeat: no-repeat;
     pointer-events: none;
+}
+
+div#openseadragon-viewer {
+    width: 800px; 
+    height: 600px;
 }

@@ -15,11 +15,11 @@ Go to `localhost:8000` to see the running django instance.
 
 The container reacts to changes in the repository as the project folder is loaded as a volume.
 
-## Updating CSS
+## Updating Frontend
 Assuming you have a current node version installed (repo is tested with node version 22), run 
 `npm install` in /moravian (where package.json is) if you haven't already. 
 
-Run `npx gulp watch` every time you run the containers and change css files if needed. It should update automatically, delete your browser cache otherwise.
+Run `npm run build` in /moravian every time you run the containers and change css or js files if needed and rebuild the container.
 
 # Create sample data
 In the productive system, run 

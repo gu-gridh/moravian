@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_vite',
     'django_prose_editor',
     'rest_framework',
     'corsheaders',
@@ -157,3 +158,10 @@ PAGES_PROJECT_INFO = {
         {"label": "Contact", "url": "https://www.gu.se/en/digital-humanities/about-us/contact"},
     ],
 }
+
+DJANGO_VITE = {
+  "default": {
+    "dev_mode": False
+  }
+}
+DJANGO_VITE_ASSETS_PATH = BASE_DIR / "static" / "assets"

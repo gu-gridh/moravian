@@ -1,4 +1,5 @@
 {% extends "pages/base.html" %}
+{% load static %}
 
 {% block title %}{{ "Memoir" }}{% endblock %}
 
@@ -6,10 +7,7 @@
 <div class="image-layout-container">
     <div class="image-container">{% if image.image_url %}
 
-        <div class="image">
-            <a href="{{ image.image_url }}"><img src="{{ image.image_url }}"
-                    alt="Image {{ image.page }} in {{ memoir.author }}"></a>
-        </div>
+        <div id="openseadragon-viewer"></div>
        
         {% else %}
         <p>No image found.</p>
@@ -39,4 +37,9 @@
         {% endif %}
     </div>
 </div>
+
+<script>
+    window.imageUrl = "{{ image.image_url|escapejs }}";
+</script>
+
 {% endblock %}

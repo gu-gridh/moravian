@@ -6,4 +6,5 @@ djangorestframework>=3.16.0, <4
 django-cors-headers>=4.7.0, <5
 git+https://github.com/gu-gridh/gridh-pages.git@main#egg=gridh_pages
 # dev requirements
+django-vite<3.2
 django-debug-toolbar<5.3
