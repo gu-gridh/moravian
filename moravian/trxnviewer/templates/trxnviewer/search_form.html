@@ -1,7 +1,9 @@
 <form class="search-form" method="get">
+    <label for="query" class="hidden">Search query</label>
     <input type="text" id="query" name="query" value="{{ search_query }}">
     <div class="form-controls">
-    <select name="type" class="dropdown">
+    <label for="type" class="hidden">Search type</label>
+    <select id="type" name="type" class="dropdown">
         <option value="author" {% if type == 'author' %}selected{% endif %}>Author</option>
          <option value="transcription" {% if type == 'transcription' %}selected{% endif %}>Transcription</option>
     </select>

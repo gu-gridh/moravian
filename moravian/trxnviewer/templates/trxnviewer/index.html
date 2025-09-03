@@ -11,9 +11,9 @@
     {% for image in filtered_images %}
         <div class ="card imageflex transcribed">
             <a href="{% url 'detail_image' image.memoir.id image.id %}">        
-                <h2>{{ image.memoir.author }}</h2>                
+                <h2>{{ image.memoir.author }}<br>{{ image.page }}</h2>                
                 <img class="thumbnail" src="{{ image.thumb_url }}" loading="lazy" alt="Image {{ image.page }} in {{ image.memoir.author }}">
-                <p>{{ image.page }}</p>
+                <p></p>
             </a>
         </div>
     {% endfor %}
