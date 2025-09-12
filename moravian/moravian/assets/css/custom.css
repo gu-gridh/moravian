@@ -1,4 +1,3 @@
-
 :root {
     --contrast-color: #ed8e45
 }
@@ -289,7 +288,7 @@ h4 {
     left: 0px;
     overflow: visible;
     background-color: transparent;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-top: 0px;
     margin-right: 10px;
 
@@ -299,7 +298,8 @@ h4 {
 .thumbnail {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-    width: 100%;
+    width: fill;
+    min-width: 100%;
     height: auto;
     margin: 0px;
     padding: 0px;
@@ -330,14 +330,35 @@ h4 {
 .card.imageflex h2 {
     z-index: 100;
     position: absolute;
-    bottom: 0px;
+    bottom: 35px;
+    margin-left: 15px;
+    color: white;
     font-size: 0.9em;
-    font-weight: 400;
+    font-weight: 500;
     width: 100%;
     text-align: left;
-    margin-left: 0px;
     text-transform: capitalize;
+}
 
+.card.imageflex h3 {
+    z-index: 100;
+    position: absolute;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.2;
+    width: 80%;
+    text-align: left;
+    margin-left: 15px;
+    bottom: 35px;
+    color: white;
+    text-transform: capitalize;
+   
+}
+
+.card.imageflex h3 p {
+    margin-bottom: 5px;
+    padding:0px;
+    border-width: 0px;
 }
 
 .card.transcribed::after {
@@ -359,8 +380,11 @@ h4 {
 
 div#openseadragon-viewer {
     max-width: 100%;
-    width: 800px; 
-    height: 600px;
+    width: 800px;
+    height: calc(100vh - 140px);
+    min-height:600px;
+    overflow:hidden;
+    border-radius:10px
 }
 
 label.hidden {
@@ -373,3 +397,4 @@ label.hidden {
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
+

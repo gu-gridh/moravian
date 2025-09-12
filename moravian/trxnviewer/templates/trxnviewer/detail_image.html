@@ -7,7 +7,40 @@
 <div class="image-layout-container">
     <div class="image-container">{% if image.image_url %}
 
-        <div id="openseadragon-viewer"></div>
+        <div id="openseadragon-viewer">
+            
+           
+        </div>
+
+         <!--  Rotation controls -->
+            <div id="ToolbarVertical">
+                <a id="rotate-left" href="#rotate-left">
+                    <div id="RotateLeft" class="NavButton"></div>
+                </a>
+                <a id="rotate-right" href="#rotate-right">
+                    <div id="RotateRight" class="NavButton"></div>
+                </a>
+            </div>
+
+            <!--  These are the regular controls -->
+            <div class="interface-area-bottom">
+                <div class="toolbar-bottom" style="">
+
+                    <a id="home" href="#home">
+                        <div id="Home" class="NavButton"></div>
+                    </a>
+                    <a id="zoom-in" href="#zoom-in">
+                        <div id="ZoomIn" class="NavButton"></div>
+                    </a>
+                    <a id="zoom-out" href="#zoom-out">
+                        <div id="ZoomOut" class="NavButton"></div>
+                    </a>
+                    <a id="full-page" class="full-screen-option" href="#full-page">
+                        <div id="FullPage" class="NavButton full-page"></div>
+                    </a>
+
+                </div>
+            </div>
        
         {% else %}
         <p>No image found.</p>
