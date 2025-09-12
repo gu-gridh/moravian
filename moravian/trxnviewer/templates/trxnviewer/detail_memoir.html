@@ -11,6 +11,9 @@
     <h3>{{ memoir.start_date|date:"Y" }} - {{ memoir.end_date|date:"Y" }}</h3>
     {% endif %}
 {% endif %}
+<div class="back-button">
+    <a href="{% url 'memoirs' %}">All memoirs</a>
+</div>
 <p class="note">Transcribed pages are marked with an icon.</p>
 {% if images %}
     <div class="pageflex">
