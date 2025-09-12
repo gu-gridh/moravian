@@ -398,3 +398,7 @@ label.hidden {
     border: 0;
 }
 
+span.highlight {
+    background: color-mix(in srgb, var(--contrast-color) 50%, white);
+    padding: 0 .1em;
+}

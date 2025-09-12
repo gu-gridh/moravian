@@ -1,5 +1,6 @@
 {% extends "pages/base.html" %}
 {% load static %}
+{% load highlight %}
 
 {% block title %}{{ "Memoir" }}{% endblock %}
 
@@ -69,7 +70,11 @@
          {% if image.transcription %}
         <div class="transcription">
             <h2 class="no-margin-top">Transcription</h2>
-            {{ image.transcription.text | safe}}
+            {% if search_query %}
+                {{ image.transcription.text |highlight:search_query| safe}}
+            {% else %}
+                {{ image.transcription.text |safe }}
+            {% endif %}
         </div>
             {% else %}
     <p>No transcription available.</p>
