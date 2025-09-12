@@ -56,6 +56,15 @@
         <h3>{{ memoir.start_date|date:"Y" }} - {{ memoir.end_date|date:"Y" }}</h3>
         {% endif %}
         {% endif %}
+        {% if search_query %}
+            <div class="back-button">
+                <a href="{% url 'memoirs' %}{% if search_query %}?query={{ search_query }}&amp;type=transcription{% endif %}">Back to search results</a>
+            </div>
+        {% else %}
+            <div class="back-button">
+                <a href="{% url 'detail_memoir' memoir.id %}">All memoir pages from this author</a>
+            </div>
+        {% endif %}
         <h4>{{ image.page }}</h4>
          {% if image.transcription %}
         <div class="transcription">
@@ -66,7 +75,7 @@
     <p>No transcription available.</p>
         {% endif %}
         {% if request.user.is_authenticated %}
-           <a href="https://moravian.dh.gu.se/admin/trxnviewer/memoirimage/{{ image.id }}"><div class="edit-button">Edit transcription</div></a>
+            <div class="edit-button"><a href="https://moravian.dh.gu.se/admin/trxnviewer/memoirimage/{{ image.id }}">Edit transcription</a></div>
         {% endif %}
     </div>
 </div>

@@ -79,5 +79,7 @@ def detail_memoir(request, memoir_id):
 def detail_image(request, memoir_id, image_id):
     image = get_object_or_404(MemoirImage, pk=image_id, memoir=memoir_id)
     memoir = get_object_or_404(Memoir, pk=memoir_id)
-    context = {"memoir": memoir, "image": image}
+    search_query = request.GET.get('query', '')
+
+    context = {"memoir": memoir, "image": image, "search_query": search_query}
     return render(request, "trxnviewer/detail_image.html", context)
