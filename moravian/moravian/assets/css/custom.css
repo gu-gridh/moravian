@@ -381,7 +381,7 @@ h4 {
 div#openseadragon-viewer {
     max-width: 100%;
     width: 800px;
-    height: calc(100vh - 140px);
+    height: calc(100vh - 150px);
     min-height:600px;
     overflow:hidden;
     border-radius:10px
