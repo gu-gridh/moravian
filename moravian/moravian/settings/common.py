@@ -150,8 +150,8 @@ PAGES_PROJECT_INFO = {
         {"label": "Contact", "url": "https://www.gu.se/en/digital-humanities/about-us/contact", "type": "site-link"},
     ],
     "PARTNERS": [
-        {"label": "GU / GRIDH", "url": "https://dh.gu.se/"},
         {"label": "Bucknell University", "url": "https://www.bucknell.edu/"},
+        {"label": "GU / GRIDH", "url": "https://dh.gu.se/"},
     ],
     "EXTRA_NAV_URLS": [
         {"label": "Swedish Memoirs", "url": "/memoirs"},
