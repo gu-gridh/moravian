@@ -8,6 +8,18 @@ body {
     background-size: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 main {
     width: calc(100% - 8rem);
     background: #fff;
@@ -87,7 +99,6 @@ nav ul {
 nav ul li a {
     color: #fff;
     font-weight: 700;
-    text-decoration: none
 }
 
 nav ul li a:hover {
@@ -106,6 +117,10 @@ button[type=submit] {
 
 button[type=submit]:hover {
     opacity: .8
+}
+
+.note {
+    margin-top:10px;
 }
 
 .memoirflex {
@@ -141,21 +156,45 @@ button[type=submit]:hover {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content:flex-start;
     gap: 0rem;
     padding-left: 40px;
     margin: 0;
 }
+.memoir-header{
+    margin-top:25px;
+}
+
+.memoir-header h1{
+    margin-block-end: 0.0em;
+    line-height: 1.2;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.memoir-header h3{
+    margin-bottom: 5px;
+}
+
+.memoir-header a{
+      color:black;
+}
+
+.memoir-header a:visited{
+      color:black;
+}
+
 
 .image-info-container h1,
 h2,
 h3,
 h4 {
-    line-height: 1.0;
+    line-height: 1.2;
     margin: 0;
-    padding-bottom: 5px;
-
+    margin-bottom: 5px;
 }
+
+
 
 .image-info-container h4 {
     margin-top: 30px;
@@ -177,10 +216,6 @@ h4 {
     margin-bottom: 8px;
 }
 
-.image-info-container a {
-    text-decoration: none;
-}
-
 .edit-button {
     cursor: pointer;
     margin-top: 20px;
@@ -192,6 +227,30 @@ h4 {
     text-align: center;
     width: 110px;
     font-weight: 400;
+}
+
+
+
+
+.back-button {
+    display: inline-flex;
+    cursor: pointer;
+    padding-left:26px;
+    margin-top:5px;
+    font-size: 80%;
+    text-align: left;
+    width: auto;
+    height:20px;
+    font-weight: 600;
+    background: url(https://data.dh.gu.se/ui-icons/arrow_back_black_circle.png);
+    background-size:20px;
+    background-position:0px 50%;
+    background-repeat: no-repeat;
+    color:black;
+}
+
+.back-button:hover{
+     opacity:0.6;
 }
 
 .edit-button:hover {
@@ -269,7 +328,6 @@ h4 {
 }
 
 .card a {
-    text-decoration: none;
     color: inherit
 }
 

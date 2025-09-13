@@ -3,6 +3,7 @@
 {% block title %}{{ "Memoir" }}{% endblock %}
 
 {% block content %}
+<div class="memoir-header">
 <h1>{{ memoir.author }}</h1>
 {% if memoir.start_date %}
     {% if memoir.date_precision == "exact" %}
@@ -11,10 +12,13 @@
     <h3>{{ memoir.start_date|date:"Y" }} - {{ memoir.end_date|date:"Y" }}</h3>
     {% endif %}
 {% endif %}
+ <a href="{% url 'memoirs' %}">
 <div class="back-button">
-    <a href="{% url 'memoirs' %}">All memoirs</a>
+   All memoirs
 </div>
+</a>
 <p class="note">Transcribed pages are marked with an icon.</p>
+</div>
 {% if images %}
     <div class="pageflex">
     {% for image in images %}

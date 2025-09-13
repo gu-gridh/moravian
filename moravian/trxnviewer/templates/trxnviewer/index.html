@@ -42,8 +42,10 @@
         </div>    
     {% else %}
     <p>No memoirs found.</p>
+    <a href="{% url 'memoirs' %}">
     <div class="edit-button">
-        <a href="{% url 'memoirs' %}">Clear Search</a>
+        Clear Search
     </div>
+    </a>
     {% endif %}
 {% endblock %}

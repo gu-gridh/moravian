@@ -9,40 +9,40 @@
     <div class="image-container">{% if image.image_url %}
 
         <div id="openseadragon-viewer">
-            
-           
+
+
         </div>
 
-         <!--  Rotation controls -->
-            <div id="ToolbarVertical">
-                <a id="rotate-left" href="#rotate-left">
-                    <div id="RotateLeft" class="NavButton"></div>
+        <!--  Rotation controls -->
+        <div id="ToolbarVertical">
+            <a id="rotate-left" href="#rotate-left">
+                <div id="RotateLeft" class="NavButton"></div>
+            </a>
+            <a id="rotate-right" href="#rotate-right">
+                <div id="RotateRight" class="NavButton"></div>
+            </a>
+        </div>
+
+        <!--  These are the regular controls -->
+        <div class="interface-area-bottom">
+            <div class="toolbar-bottom" style="">
+
+                <a id="home" href="#home">
+                    <div id="Home" class="NavButton"></div>
                 </a>
-                <a id="rotate-right" href="#rotate-right">
-                    <div id="RotateRight" class="NavButton"></div>
+                <a id="zoom-in" href="#zoom-in">
+                    <div id="ZoomIn" class="NavButton"></div>
                 </a>
+                <a id="zoom-out" href="#zoom-out">
+                    <div id="ZoomOut" class="NavButton"></div>
+                </a>
+                <a id="full-page" class="full-screen-option" href="#full-page">
+                    <div id="FullPage" class="NavButton full-page"></div>
+                </a>
+
             </div>
+        </div>
 
-            <!--  These are the regular controls -->
-            <div class="interface-area-bottom">
-                <div class="toolbar-bottom" style="">
-
-                    <a id="home" href="#home">
-                        <div id="Home" class="NavButton"></div>
-                    </a>
-                    <a id="zoom-in" href="#zoom-in">
-                        <div id="ZoomIn" class="NavButton"></div>
-                    </a>
-                    <a id="zoom-out" href="#zoom-out">
-                        <div id="ZoomOut" class="NavButton"></div>
-                    </a>
-                    <a id="full-page" class="full-screen-option" href="#full-page">
-                        <div id="FullPage" class="NavButton full-page"></div>
-                    </a>
-
-                </div>
-            </div>
-       
         {% else %}
         <p>No image found.</p>
         {% endif %}
@@ -57,17 +57,20 @@
         <h3>{{ memoir.start_date|date:"Y" }} - {{ memoir.end_date|date:"Y" }}</h3>
         {% endif %}
         {% endif %}
+        <a href="{% url 'detail_memoir' memoir.id %}">
+        <div class="back-button">
+           All memoir pages from this author
+        </div>
+        </a>
         {% if search_query %}
+        <a href="{% url 'memoirs' %}{% if search_query %}?query={{ search_query }}&amp;type=transcription{% endif %}">
             <div class="back-button">
-                <a href="{% url 'memoirs' %}{% if search_query %}?query={{ search_query }}&amp;type=transcription{% endif %}">Back to search results</a>
+                Back to search results
             </div>
-        {% else %}
-            <div class="back-button">
-                <a href="{% url 'detail_memoir' memoir.id %}">All memoir pages from this author</a>
-            </div>
+        </a>
         {% endif %}
         <h4>{{ image.page }}</h4>
-         {% if image.transcription %}
+        {% if image.transcription %}
         <div class="transcription">
             <h2 class="no-margin-top">Transcription</h2>
             {% if search_query %}
@@ -76,11 +79,12 @@
                 {{ image.transcription.text |safe }}
             {% endif %}
         </div>
-            {% else %}
-    <p>No transcription available.</p>
+        {% else %}
+        <p>No transcription available.</p>
         {% endif %}
         {% if request.user.is_authenticated %}
-            <div class="edit-button"><a href="https://moravian.dh.gu.se/admin/trxnviewer/memoirimage/{{ image.id }}">Edit transcription</a></div>
+        <div class="edit-button"><a href="https://moravian.dh.gu.se/admin/trxnviewer/memoirimage/{{ image.id }}">Edit
+                transcription</a></div>
         {% endif %}
     </div>
 </div>
