@@ -242,8 +242,8 @@ h4 {
     width: auto;
     height:20px;
     font-weight: 600;
-    background: url(https://data.dh.gu.se/ui-icons/arrow_back_black_circle.png);
-    background-size:20px;
+    background: url(https://data.dh.gu.se/ui-icons/arrow_back_black.png);
+    background-size:16px;
     background-position:0px 50%;
     background-repeat: no-repeat;
     color:black;
