@@ -57,6 +57,7 @@
         <h3>{{ memoir.start_date|date:"Y" }} - {{ memoir.end_date|date:"Y" }}</h3>
         {% endif %}
         {% endif %}
+        <div class="linkgroup">
         <a href="{% url 'detail_memoir' memoir.id %}">
         <div class="back-button">
            All memoir pages from this author
@@ -69,6 +70,7 @@
             </div>
         </a>
         {% endif %}
+        </div>
         <h4>{{ image.page }}</h4>
         {% if image.transcription %}
         <div class="transcription">
