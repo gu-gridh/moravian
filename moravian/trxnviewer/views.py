@@ -1,6 +1,6 @@
 from pathlib import Path
 from django.shortcuts import render, get_object_or_404
-from django.db.models import Count, Case, When, IntegerField, Q
+from django.db.models import Count, Case, When, IntegerField, Q, Prefetch
 from django.views.decorators.cache import cache_page
 from django.http import FileResponse, Http404
 from django.conf import settings
@@ -13,10 +13,19 @@ from .serializers import MemoirSerializer
 
 
 class MemoirViewSet(viewsets.ReadOnlyModelViewSet):
-    queryset = Memoir.objects.select_related('author').prefetch_related(
-        'images__transcription'
-    ).order_by('id')
     serializer_class = MemoirSerializer
+
+    def get_queryset(self):
+        visible_images = Prefetch(
+            "images",
+            queryset=MemoirImage.objects.filter(visibility=True)
+                                .select_related("transcription"),
+            to_attr="visible_images",
+        )
+        return (Memoir.objects
+                .select_related("author")
+                .prefetch_related(visible_images)
+                .order_by("id"))
 
 
 class MemoirZipView(APIView):
@@ -48,7 +57,10 @@ def index(request):
         if selected_type == 'author':
             memoir_list = memoir_list.filter(author__name__icontains=search_query)
         if selected_type == 'transcription':
-            memoir_list = memoir_list.filter(images__transcription__text__icontains=search_query)
+            memoir_list = memoir_list.filter(
+                Q(images__visibility=True),
+                Q(images__transcription__text__icontains=search_query)
+                )
             filtered_images = MemoirImage.objects.filter(
                 Q(memoir__in=memoir_list),
                 Q(transcription__text__icontains=search_query)).prefetch_related('transcription')
@@ -63,7 +75,7 @@ def index(request):
 @cache_page(60 * 15)  # cache view for 15 minutes
 def detail_memoir(request, memoir_id):
     memoir = get_object_or_404(Memoir, pk=memoir_id)
-    images = MemoirImage.objects.filter(memoir=memoir_id).prefetch_related(
+    images = MemoirImage.objects.filter(memoir=memoir_id, visibility=True).prefetch_related(
         'transcription').annotate(
         has_transcription=Case(
             When(transcription__isnull=False, then=1),

@@ -66,6 +66,7 @@ class Memoir(EntityMixin):
 class MemoirImage(EntityMixin):
     image_url = models.URLField(blank=True)
     thumb_url = models.URLField(blank=True)
+    visibility = models.BooleanField(default=True)
     page = models.CharField(max_length=25, null=True, blank=True)
     memoir = models.ForeignKey(Memoir, on_delete=models.CASCADE,
                                null=True, blank=True, related_name='images')

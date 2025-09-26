@@ -40,8 +40,9 @@ class MemoirAdmin(admin.ModelAdmin):
 
 @admin.register(MemoirImage)
 class MemoirImageAdmin(admin.ModelAdmin):
-    list_display = ['page', 'image_url', 'updated']
-    search_fields = ['memoir__author__name']
+    list_display = ['page', 'visibility', 'memoir__author__name', 'image_url',
+                    'updated']
+    search_fields = ['memoir__author__name', 'page']
     readonly_fields = ['image_preview', 'modified', 'updated']
     inlines = [
         TranscriptionInline

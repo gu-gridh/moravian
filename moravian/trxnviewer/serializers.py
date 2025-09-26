@@ -23,7 +23,8 @@ class MemoirImageSerializer(serializers.ModelSerializer):
 
 
 class MemoirSerializer(serializers.ModelSerializer):
-    images = MemoirImageSerializer(many=True, read_only=True)
+    images = MemoirImageSerializer(many=True, read_only=True,
+                                   source="visible_images")
     author = AuthorSerializer(read_only=True)
 
     class Meta:
