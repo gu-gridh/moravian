@@ -5,6 +5,8 @@ from . import views
 
 router = DefaultRouter()
 router.register(r'api/memoirs', views.MemoirViewSet, basename='memoir_api')
+router.register(r'api/transcriptions', views.TranscriptionViewSet,
+                basename='transcription_api')
 
 urlpatterns = [
     path("memoirs", views.index, name="memoirs"),

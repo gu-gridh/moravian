@@ -2,14 +2,16 @@ from pathlib import Path
 from django.shortcuts import render, get_object_or_404
 from django.db.models import Count, Case, When, IntegerField, Q, Prefetch
 from django.views.decorators.cache import cache_page
-from django.http import FileResponse, Http404
+from django.http import FileResponse, Http404, HttpResponse
 from django.conf import settings
+from django.utils.text import slugify
 from rest_framework import viewsets
-from rest_framework.views import APIView
+from rest_framework.decorators import action
 from rest_framework.permissions import AllowAny
 from rest_framework.throttling import ScopedRateThrottle
+from rest_framework.views import APIView
 from .models import Memoir, MemoirImage
-from .serializers import MemoirSerializer
+from .serializers import MemoirSerializer, MemoirImageSerializer
 
 
 class MemoirViewSet(viewsets.ReadOnlyModelViewSet):
@@ -26,6 +28,25 @@ class MemoirViewSet(viewsets.ReadOnlyModelViewSet):
                 .select_related("author")
                 .prefetch_related(visible_images)
                 .order_by("id"))
+
+
+class TranscriptionViewSet(viewsets.ReadOnlyModelViewSet):
+    queryset = MemoirImage.objects.filter(visibility=True).select_related("memoir")
+    serializer_class = MemoirImageSerializer
+
+    # get transcription as simple txt file
+    @action(detail=True, methods=["get"], url_path="transcription.txt")
+    def transcription_txt(self, request, pk=None):
+        image = self.get_object()  # respects visibility=True
+        text = getattr(image, "transcription", "")
+
+        if not text:
+            return HttpResponse(status=404)
+
+        filename = f"{slugify('memoir')}-{slugify(image.page or f'image-{image.pk}')}-transcription.txt"
+        resp = HttpResponse(str(image.memoir) + "\n" + str(image.page) + "\n\n" + text.text, content_type="text/plain; charset=utf-8")
+        resp["Content-Disposition"] = f'attachment; filename="{filename}"'
+        return resp
 
 
 class MemoirZipView(APIView):

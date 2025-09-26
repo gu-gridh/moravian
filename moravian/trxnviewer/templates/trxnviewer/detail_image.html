@@ -81,6 +81,9 @@
                 {{ image.transcription.text |safe }}
             {% endif %}
         </div>
+        <div class="transcription-button">
+            <a href="{% url 'transcription_api-transcription-txt' pk=image.id %}">Download as txt file</a>
+        </div>
         {% else %}
         <p>No transcription available.</p>
         {% endif %}
