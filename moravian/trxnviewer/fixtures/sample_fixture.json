@@ -635,7 +635,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_01-01.jpg",
             "page": "page 01",
             "memoir": 40001,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -649,7 +650,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_01-02.jpg",
             "page": "page 02",
             "memoir": 40001,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -663,7 +665,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_01-03.jpg",
             "page": "page 03",
             "memoir": 40001,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -677,7 +680,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_01-04.jpg",
             "page": "page 04",
             "memoir": 40001,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -691,7 +695,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_01-05.jpg",
             "page": "page 05",
             "memoir": 40001,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -705,7 +710,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_01-06.jpg",
             "page": "page 06",
             "memoir": 40001,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -719,7 +725,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_01-07.jpg",
             "page": "page 07",
             "memoir": 40001,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -733,7 +740,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_01-08.jpg",
             "page": "page 08",
             "memoir": 40001,
-            "visibility": true
+            "visibility": true,
+            "position": "8"
         }
     },
     {
@@ -747,7 +755,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_01-09.jpg",
             "page": "page 09",
             "memoir": 40001,
-            "visibility": true
+            "visibility": true,
+            "position": "9"
         }
     },
     {
@@ -761,7 +770,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_01-10.jpg",
             "page": "page 10",
             "memoir": 40001,
-            "visibility": true
+            "visibility": true,
+            "position": "10"
         }
     },
     {
@@ -775,7 +785,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_01-11.jpg",
             "page": "page 11",
             "memoir": 40001,
-            "visibility": true
+            "visibility": true,
+            "position": "11"
         }
     },
     {
@@ -789,7 +800,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_01-12.jpg",
             "page": "page 12",
             "memoir": 40001,
-            "visibility": true
+            "visibility": true,
+            "position": "12"
         }
     },
     {
@@ -803,7 +815,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02a-01.jpg",
             "page": "page 01a",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -817,7 +830,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02a-02.jpg",
             "page": "page 02a",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -831,7 +845,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02a-03.jpg",
             "page": "page 03a",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "9"
         }
     },
     {
@@ -845,7 +860,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02a-04.jpg",
             "page": "page 04a",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "13"
         }
     },
     {
@@ -859,7 +875,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02a-05.jpg",
             "page": "page 05a",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "17"
         }
     },
     {
@@ -873,7 +890,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02a-06.jpg",
             "page": "page 06a",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "21"
         }
     },
     {
@@ -887,7 +905,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02a-07.jpg",
             "page": "page 07a",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "24"
         }
     },
     {
@@ -901,7 +920,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02a-08.jpg",
             "page": "page 08a",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "27"
         }
     },
     {
@@ -915,7 +935,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02a-09.jpg",
             "page": "page 09a",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "30"
         }
     },
     {
@@ -929,7 +950,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02a-10.jpg",
             "page": "page 10a",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "33"
         }
     },
     {
@@ -943,7 +965,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02a-11.jpg",
             "page": "page 11a",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "36"
         }
     },
     {
@@ -957,7 +980,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02a-12.jpg",
             "page": "page 12a",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "39"
         }
     },
     {
@@ -971,7 +995,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-01.jpg",
             "page": "page 01b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -985,7 +1010,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-02.jpg",
             "page": "page 02b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -999,7 +1025,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-03.jpg",
             "page": "page 03b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "10"
         }
     },
     {
@@ -1013,7 +1040,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-04.jpg",
             "page": "page 04b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "14"
         }
     },
     {
@@ -1027,7 +1055,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-05.jpg",
             "page": "page 05b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "18"
         }
     },
     {
@@ -1041,7 +1070,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-06.jpg",
             "page": "page 06b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "22"
         }
     },
     {
@@ -1055,7 +1085,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-07.jpg",
             "page": "page 07b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "25"
         }
     },
     {
@@ -1069,7 +1100,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-08.jpg",
             "page": "page 08b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "28"
         }
     },
     {
@@ -1083,7 +1115,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-09.jpg",
             "page": "page 09b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "31"
         }
     },
     {
@@ -1097,7 +1130,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-10.jpg",
             "page": "page 10b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "34"
         }
     },
     {
@@ -1111,7 +1145,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-11.jpg",
             "page": "page 11b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "37"
         }
     },
     {
@@ -1125,7 +1160,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-12.jpg",
             "page": "page 12b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "40"
         }
     },
     {
@@ -1139,7 +1175,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-13.jpg",
             "page": "page 13b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "42"
         }
     },
     {
@@ -1153,7 +1190,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-14.jpg",
             "page": "page 14b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "44"
         }
     },
     {
@@ -1167,7 +1205,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-15.jpg",
             "page": "page 15b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "46"
         }
     },
     {
@@ -1181,7 +1220,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-16.jpg",
             "page": "page 16b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "48"
         }
     },
     {
@@ -1195,7 +1235,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-17.jpg",
             "page": "page 17b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "50"
         }
     },
     {
@@ -1209,7 +1250,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-18.jpg",
             "page": "page 18b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "52"
         }
     },
     {
@@ -1223,7 +1265,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-19.jpg",
             "page": "page 19b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "54"
         }
     },
     {
@@ -1237,7 +1280,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-20.jpg",
             "page": "page 20b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "56"
         }
     },
     {
@@ -1251,7 +1295,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-21.jpg",
             "page": "page 21b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "58"
         }
     },
     {
@@ -1265,7 +1310,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-22.jpg",
             "page": "page 22b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "60"
         }
     },
     {
@@ -1279,7 +1325,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-23.jpg",
             "page": "page 23b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "62"
         }
     },
     {
@@ -1293,7 +1340,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-24.jpg",
             "page": "page 24b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "63"
         }
     },
     {
@@ -1307,7 +1355,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-25.jpg",
             "page": "page 25b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "64"
         }
     },
     {
@@ -1321,7 +1370,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-26.jpg",
             "page": "page 26b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "65"
         }
     },
     {
@@ -1335,7 +1385,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-27.jpg",
             "page": "page 27b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "66"
         }
     },
     {
@@ -1349,7 +1400,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-28.jpg",
             "page": "page 28b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "67"
         }
     },
     {
@@ -1363,7 +1415,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-29.jpg",
             "page": "page 29b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "68"
         }
     },
     {
@@ -1377,7 +1430,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-30.jpg",
             "page": "page 30b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "69"
         }
     },
     {
@@ -1391,7 +1445,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-31.jpg",
             "page": "page 31b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "70"
         }
     },
     {
@@ -1405,7 +1460,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-32.jpg",
             "page": "page 32b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "71"
         }
     },
     {
@@ -1419,7 +1475,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-33.jpg",
             "page": "page 33b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "72"
         }
     },
     {
@@ -1433,7 +1490,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-34.jpg",
             "page": "page 34b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "73"
         }
     },
     {
@@ -1447,7 +1505,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-35.jpg",
             "page": "page 35b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "74"
         }
     },
     {
@@ -1461,7 +1520,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-36.jpg",
             "page": "page 36b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "75"
         }
     },
     {
@@ -1475,7 +1535,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-37.jpg",
             "page": "page 37b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "76"
         }
     },
     {
@@ -1489,7 +1550,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-38.jpg",
             "page": "page 38b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "77"
         }
     },
     {
@@ -1503,7 +1565,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-39.jpg",
             "page": "page 39b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "78"
         }
     },
     {
@@ -1517,7 +1580,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-40.jpg",
             "page": "page 40b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "79"
         }
     },
     {
@@ -1531,7 +1595,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-41.jpg",
             "page": "page 41b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "80"
         }
     },
     {
@@ -1545,7 +1610,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-42.jpg",
             "page": "page 42b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "81"
         }
     },
     {
@@ -1559,7 +1625,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-43.jpg",
             "page": "page 43b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "82"
         }
     },
     {
@@ -1573,7 +1640,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-44.jpg",
             "page": "page 44b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "83"
         }
     },
     {
@@ -1587,7 +1655,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-45.jpg",
             "page": "page 45b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "84"
         }
     },
     {
@@ -1601,7 +1670,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-46.jpg",
             "page": "page 46b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "85"
         }
     },
     {
@@ -1615,7 +1685,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-47.jpg",
             "page": "page 47b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "86"
         }
     },
     {
@@ -1629,7 +1700,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-48.jpg",
             "page": "page 48b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "87"
         }
     },
     {
@@ -1643,7 +1715,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-49.jpg",
             "page": "page 49b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "88"
         }
     },
     {
@@ -1657,7 +1730,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-50.jpg",
             "page": "page 50b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "89"
         }
     },
     {
@@ -1671,7 +1745,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-51.jpg",
             "page": "page 51b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "90"
         }
     },
     {
@@ -1685,7 +1760,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-52.jpg",
             "page": "page 52b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "91"
         }
     },
     {
@@ -1699,7 +1775,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-53.jpg",
             "page": "page 53b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "92"
         }
     },
     {
@@ -1713,7 +1790,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02b-54.jpg",
             "page": "page 54b",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "93"
         }
     },
     {
@@ -1727,7 +1805,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02c-1.jpg",
             "page": "page 1c",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -1741,7 +1820,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02c-2.jpg",
             "page": "page 2c",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -1755,7 +1835,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02c-3.jpg",
             "page": "page 3c",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "11"
         }
     },
     {
@@ -1769,7 +1850,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02c-4.jpg",
             "page": "page 4c",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "15"
         }
     },
     {
@@ -1783,7 +1865,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02c-5.jpg",
             "page": "page 5c",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "19"
         }
     },
     {
@@ -1797,7 +1880,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-01.jpg",
             "page": "page 01d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -1811,7 +1895,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-02.jpg",
             "page": "page 02d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "8"
         }
     },
     {
@@ -1825,7 +1910,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-03.jpg",
             "page": "page 03d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "12"
         }
     },
     {
@@ -1839,7 +1925,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-04.jpg",
             "page": "page 04d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "16"
         }
     },
     {
@@ -1853,7 +1940,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-05.jpg",
             "page": "page 05d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "20"
         }
     },
     {
@@ -1867,7 +1955,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-06.jpg",
             "page": "page 06d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "23"
         }
     },
     {
@@ -1881,7 +1970,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-07.jpg",
             "page": "page 07d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "26"
         }
     },
     {
@@ -1895,7 +1985,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-08.jpg",
             "page": "page 08d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "29"
         }
     },
     {
@@ -1909,7 +2000,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-09.jpg",
             "page": "page 09d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "32"
         }
     },
     {
@@ -1923,7 +2015,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-10.jpg",
             "page": "page 10d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "35"
         }
     },
     {
@@ -1937,7 +2030,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-11.jpg",
             "page": "page 11d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "38"
         }
     },
     {
@@ -1951,7 +2045,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-12.jpg",
             "page": "page 12d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "41"
         }
     },
     {
@@ -1965,7 +2060,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-13.jpg",
             "page": "page 13d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "43"
         }
     },
     {
@@ -1979,7 +2075,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-14.jpg",
             "page": "page 14d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "45"
         }
     },
     {
@@ -1993,7 +2090,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-15.jpg",
             "page": "page 15d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "47"
         }
     },
     {
@@ -2007,7 +2105,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-16.jpg",
             "page": "page 16d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "49"
         }
     },
     {
@@ -2021,7 +2120,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-17.jpg",
             "page": "page 17d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "51"
         }
     },
     {
@@ -2035,7 +2135,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-18.jpg",
             "page": "page 18d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "53"
         }
     },
     {
@@ -2049,7 +2150,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-19.jpg",
             "page": "page 19d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "55"
         }
     },
     {
@@ -2063,7 +2165,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-20.jpg",
             "page": "page 20d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "57"
         }
     },
     {
@@ -2077,7 +2180,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-21.jpg",
             "page": "page 21d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "59"
         }
     },
     {
@@ -2091,7 +2195,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_02d-22.jpg",
             "page": "page 22d",
             "memoir": 40002,
-            "visibility": true
+            "visibility": true,
+            "position": "61"
         }
     },
     {
@@ -2105,7 +2210,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_03-1.jpg",
             "page": "page 1",
             "memoir": 40003,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -2119,7 +2225,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_03-2.jpg",
             "page": "page 2",
             "memoir": 40003,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -2133,7 +2240,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_04-01.jpg",
             "page": "page 01",
             "memoir": 40004,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -2147,7 +2255,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_04-02.jpg",
             "page": "page 02",
             "memoir": 40004,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -2161,7 +2270,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_04-03.jpg",
             "page": "page 03",
             "memoir": 40004,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -2175,7 +2285,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_04-04.jpg",
             "page": "page 04",
             "memoir": 40004,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -2189,7 +2300,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_04-05.jpg",
             "page": "page 05",
             "memoir": 40004,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -2203,7 +2315,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_04-06.jpg",
             "page": "page 06",
             "memoir": 40004,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -2217,7 +2330,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_04-07.jpg",
             "page": "page 07",
             "memoir": 40004,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -2231,7 +2345,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_04-08.jpg",
             "page": "page 08",
             "memoir": 40004,
-            "visibility": true
+            "visibility": true,
+            "position": "8"
         }
     },
     {
@@ -2245,7 +2360,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_04-09.jpg",
             "page": "page 09",
             "memoir": 40004,
-            "visibility": true
+            "visibility": true,
+            "position": "9"
         }
     },
     {
@@ -2259,7 +2375,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_04-10.jpg",
             "page": "page 10",
             "memoir": 40004,
-            "visibility": true
+            "visibility": true,
+            "position": "10"
         }
     },
     {
@@ -2273,7 +2390,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_04-11.jpg",
             "page": "page 11",
             "memoir": 40004,
-            "visibility": true
+            "visibility": true,
+            "position": "11"
         }
     },
     {
@@ -2287,7 +2405,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_04-12.jpg",
             "page": "page 12",
             "memoir": 40004,
-            "visibility": true
+            "visibility": true,
+            "position": "12"
         }
     },
     {
@@ -2301,7 +2420,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_04-13.jpg",
             "page": "page 13",
             "memoir": 40004,
-            "visibility": true
+            "visibility": true,
+            "position": "13"
         }
     },
     {
@@ -2315,7 +2435,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_04-14.jpg",
             "page": "page 14",
             "memoir": 40004,
-            "visibility": true
+            "visibility": true,
+            "position": "14"
         }
     },
     {
@@ -2329,7 +2450,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-01.jpg",
             "page": "page 01",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -2343,7 +2465,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-02.jpg",
             "page": "page 02",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -2357,7 +2480,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-03.jpg",
             "page": "page 03",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -2371,7 +2495,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-04.jpg",
             "page": "page 04",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "9"
         }
     },
     {
@@ -2385,7 +2510,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-05.jpg",
             "page": "page 05",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "11"
         }
     },
     {
@@ -2399,7 +2525,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-06.jpg",
             "page": "page 06",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "13"
         }
     },
     {
@@ -2413,7 +2540,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-07.jpg",
             "page": "page 07",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "15"
         }
     },
     {
@@ -2427,7 +2555,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-08.jpg",
             "page": "page 08",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "17"
         }
     },
     {
@@ -2441,7 +2570,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-09.jpg",
             "page": "page 09",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "19"
         }
     },
     {
@@ -2455,7 +2585,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-10.jpg",
             "page": "page 10",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "21"
         }
     },
     {
@@ -2469,7 +2600,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-11.jpg",
             "page": "page 11",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "23"
         }
     },
     {
@@ -2483,7 +2615,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-12.jpg",
             "page": "page 12",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "25"
         }
     },
     {
@@ -2497,7 +2630,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-13.jpg",
             "page": "page 13",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "27"
         }
     },
     {
@@ -2511,7 +2645,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-14.jpg",
             "page": "page 14",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "29"
         }
     },
     {
@@ -2525,7 +2660,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-15.jpg",
             "page": "page 15",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "31"
         }
     },
     {
@@ -2539,7 +2675,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-16.jpg",
             "page": "page 16",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "33"
         }
     },
     {
@@ -2553,7 +2690,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-17.jpg",
             "page": "page 17",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "35"
         }
     },
     {
@@ -2567,7 +2705,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-18.jpg",
             "page": "page 18",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "37"
         }
     },
     {
@@ -2581,7 +2720,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-19.jpg",
             "page": "page 19",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "39"
         }
     },
     {
@@ -2595,7 +2735,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-20.jpg",
             "page": "page 20",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "40"
         }
     },
     {
@@ -2609,7 +2750,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-21.jpg",
             "page": "page 21",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "41"
         }
     },
     {
@@ -2623,7 +2765,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-22.jpg",
             "page": "page 22",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "42"
         }
     },
     {
@@ -2637,7 +2780,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-23.jpg",
             "page": "page 23",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "43"
         }
     },
     {
@@ -2651,7 +2795,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-24.jpg",
             "page": "page 24",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "44"
         }
     },
     {
@@ -2665,7 +2810,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-25.jpg",
             "page": "page 25",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "45"
         }
     },
     {
@@ -2679,7 +2825,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05-26.jpg",
             "page": "page 26",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "46"
         }
     },
     {
@@ -2693,7 +2840,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-01.jpg",
             "page": "page 01b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -2707,7 +2855,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-02.jpg",
             "page": "page 02b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -2721,7 +2870,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-03.jpg",
             "page": "page 03b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "8"
         }
     },
     {
@@ -2735,7 +2885,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-04.jpg",
             "page": "page 04b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "10"
         }
     },
     {
@@ -2749,7 +2900,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-05.jpg",
             "page": "page 05b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "12"
         }
     },
     {
@@ -2763,7 +2915,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-06.jpg",
             "page": "page 06b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "14"
         }
     },
     {
@@ -2777,7 +2930,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-07.jpg",
             "page": "page 07b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "16"
         }
     },
     {
@@ -2791,7 +2945,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-08.jpg",
             "page": "page 08b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "18"
         }
     },
     {
@@ -2805,7 +2960,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-09.jpg",
             "page": "page 09b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "20"
         }
     },
     {
@@ -2819,7 +2975,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-10.jpg",
             "page": "page 10b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "22"
         }
     },
     {
@@ -2833,7 +2990,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-11.jpg",
             "page": "page 11b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "24"
         }
     },
     {
@@ -2847,7 +3005,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-12.jpg",
             "page": "page 12b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "26"
         }
     },
     {
@@ -2861,7 +3020,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-13.jpg",
             "page": "page 13b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "28"
         }
     },
     {
@@ -2875,7 +3035,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-14.jpg",
             "page": "page 14b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "30"
         }
     },
     {
@@ -2889,7 +3050,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-15.jpg",
             "page": "page 15b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "32"
         }
     },
     {
@@ -2903,7 +3065,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-16.jpg",
             "page": "page 16b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "34"
         }
     },
     {
@@ -2917,7 +3080,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-17.jpg",
             "page": "page 17b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "36"
         }
     },
     {
@@ -2931,7 +3095,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05b-18.jpg",
             "page": "page 18b",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "38"
         }
     },
     {
@@ -2945,7 +3110,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05c-1.jpg",
             "page": "page 1c",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -2959,7 +3125,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_05c-2.jpg",
             "page": "page 2c",
             "memoir": 40005,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -2973,7 +3140,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_06-1.jpg",
             "page": "page 1",
             "memoir": 40006,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -2987,7 +3155,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_06-2.jpg",
             "page": "page 2",
             "memoir": 40006,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -3001,7 +3170,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_07-1.jpg",
             "page": "page 1",
             "memoir": 40007,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -3015,7 +3185,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_07-2.jpg",
             "page": "page 2",
             "memoir": 40007,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -3029,7 +3200,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_07-3.jpg",
             "page": "page 3",
             "memoir": 40007,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -3043,7 +3215,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_08-1.jpg",
             "page": "page 1",
             "memoir": 40008,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -3057,7 +3230,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_08-2.jpg",
             "page": "page 2",
             "memoir": 40008,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -3071,7 +3245,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_08-3.jpg",
             "page": "page 3",
             "memoir": 40008,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -3085,7 +3260,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_08-4.jpg",
             "page": "page 4",
             "memoir": 40008,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -3099,7 +3275,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_08-5.jpg",
             "page": "page 5",
             "memoir": 40008,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -3113,7 +3290,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_09a-1.jpg",
             "page": "page 1a",
             "memoir": 40009,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -3127,7 +3305,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_09a-2.jpg",
             "page": "page 2a",
             "memoir": 40009,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -3141,7 +3320,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_09a-3.jpg",
             "page": "page 3a",
             "memoir": 40009,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -3155,7 +3335,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_09a-4.jpg",
             "page": "page 4a",
             "memoir": 40009,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -3169,7 +3350,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_09b-1.jpg",
             "page": "page 1b",
             "memoir": 40009,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -3183,7 +3365,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_10-1.jpg",
             "page": "page 1",
             "memoir": 40010,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -3197,7 +3380,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_10-2.jpg",
             "page": "page 2",
             "memoir": 40010,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -3211,7 +3395,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_10-3.jpg",
             "page": "page 3",
             "memoir": 40010,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -3225,7 +3410,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_10-4.jpg",
             "page": "page 4",
             "memoir": 40010,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -3239,7 +3425,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_10-5.jpg",
             "page": "page 5",
             "memoir": 40010,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -3253,7 +3440,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_10-6.jpg",
             "page": "page 6",
             "memoir": 40010,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -3267,7 +3455,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_10-7.jpg",
             "page": "page 7",
             "memoir": 40010,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -3281,7 +3470,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_10-8.jpg",
             "page": "page 8",
             "memoir": 40010,
-            "visibility": true
+            "visibility": true,
+            "position": "8"
         }
     },
     {
@@ -3295,7 +3485,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-01.jpg",
             "page": "page 01",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -3309,7 +3500,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-02.jpg",
             "page": "page 02",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -3323,7 +3515,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-03.jpg",
             "page": "page 03",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -3337,7 +3530,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-04.jpg",
             "page": "page 04",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -3351,7 +3545,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-05.jpg",
             "page": "page 05",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -3365,7 +3560,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-06.jpg",
             "page": "page 06",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -3379,7 +3575,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-07.jpg",
             "page": "page 07",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -3393,7 +3590,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-08.jpg",
             "page": "page 08",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "8"
         }
     },
     {
@@ -3407,7 +3605,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-09.jpg",
             "page": "page 09",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "9"
         }
     },
     {
@@ -3421,7 +3620,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-10.jpg",
             "page": "page 10",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "10"
         }
     },
     {
@@ -3435,7 +3635,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-11.jpg",
             "page": "page 11",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "11"
         }
     },
     {
@@ -3449,7 +3650,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-12.jpg",
             "page": "page 12",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "12"
         }
     },
     {
@@ -3463,7 +3665,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-13.jpg",
             "page": "page 13",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "13"
         }
     },
     {
@@ -3477,7 +3680,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-14.jpg",
             "page": "page 14",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "14"
         }
     },
     {
@@ -3491,7 +3695,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-15.jpg",
             "page": "page 15",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "15"
         }
     },
     {
@@ -3505,7 +3710,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-16.jpg",
             "page": "page 16",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "16"
         }
     },
     {
@@ -3519,7 +3725,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-17.jpg",
             "page": "page 17",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "17"
         }
     },
     {
@@ -3533,7 +3740,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-18.jpg",
             "page": "page 18",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "18"
         }
     },
     {
@@ -3547,7 +3755,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-19.jpg",
             "page": "page 19",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "19"
         }
     },
     {
@@ -3561,7 +3770,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-20.jpg",
             "page": "page 20",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "20"
         }
     },
     {
@@ -3575,7 +3785,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-21.jpg",
             "page": "page 21",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "21"
         }
     },
     {
@@ -3589,7 +3800,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_11-22.jpg",
             "page": "page 22",
             "memoir": 40011,
-            "visibility": true
+            "visibility": true,
+            "position": "22"
         }
     },
     {
@@ -3603,7 +3815,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-01.jpg",
             "page": "page 01",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -3617,7 +3830,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-02.jpg",
             "page": "page 02",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -3631,7 +3845,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-03.jpg",
             "page": "page 03",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -3645,7 +3860,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-04.jpg",
             "page": "page 04",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -3659,7 +3875,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-05.jpg",
             "page": "page 05",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -3673,7 +3890,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-06.jpg",
             "page": "page 06",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -3687,7 +3905,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-07.jpg",
             "page": "page 07",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -3701,7 +3920,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-08.jpg",
             "page": "page 08",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "8"
         }
     },
     {
@@ -3715,7 +3935,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-09.jpg",
             "page": "page 09",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "9"
         }
     },
     {
@@ -3729,7 +3950,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-10.jpg",
             "page": "page 10",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "10"
         }
     },
     {
@@ -3743,7 +3965,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-11.jpg",
             "page": "page 11",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "11"
         }
     },
     {
@@ -3757,7 +3980,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-12.jpg",
             "page": "page 12",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "12"
         }
     },
     {
@@ -3771,7 +3995,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-13.jpg",
             "page": "page 13",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "13"
         }
     },
     {
@@ -3785,7 +4010,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-14.jpg",
             "page": "page 14",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "14"
         }
     },
     {
@@ -3799,7 +4025,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-15.jpg",
             "page": "page 15",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "15"
         }
     },
     {
@@ -3813,7 +4040,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_12-16.jpg",
             "page": "page 16",
             "memoir": 40012,
-            "visibility": true
+            "visibility": true,
+            "position": "16"
         }
     },
     {
@@ -3827,7 +4055,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_13-1.jpg",
             "page": "page 1",
             "memoir": 40013,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -3841,7 +4070,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_13-2.jpg",
             "page": "page 2",
             "memoir": 40013,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -3855,7 +4085,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_13-3.jpg",
             "page": "page 3",
             "memoir": 40013,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -3869,7 +4100,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_13-4.jpg",
             "page": "page 4",
             "memoir": 40013,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -3883,7 +4115,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_13-5.jpg",
             "page": "page 5",
             "memoir": 40013,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -3897,7 +4130,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_13-6.jpg",
             "page": "page 6",
             "memoir": 40013,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -3911,7 +4145,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_13-7.jpg",
             "page": "page 7",
             "memoir": 40013,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -3925,7 +4160,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_13-8.jpg",
             "page": "page 8",
             "memoir": 40013,
-            "visibility": true
+            "visibility": true,
+            "position": "8"
         }
     },
     {
@@ -3939,7 +4175,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_14-01.jpg",
             "page": "page 01",
             "memoir": 40014,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -3953,7 +4190,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_14-02.jpg",
             "page": "page 02",
             "memoir": 40014,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -3967,7 +4205,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_14-03.jpg",
             "page": "page 03",
             "memoir": 40014,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -3981,7 +4220,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_14-04.jpg",
             "page": "page 04",
             "memoir": 40014,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -3995,7 +4235,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_14-05.jpg",
             "page": "page 05",
             "memoir": 40014,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -4009,7 +4250,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_14-06.jpg",
             "page": "page 06",
             "memoir": 40014,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -4023,7 +4265,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_14-07.jpg",
             "page": "page 07",
             "memoir": 40014,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -4037,7 +4280,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_14-08.jpg",
             "page": "page 08",
             "memoir": 40014,
-            "visibility": true
+            "visibility": true,
+            "position": "8"
         }
     },
     {
@@ -4051,7 +4295,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_14-09.jpg",
             "page": "page 09",
             "memoir": 40014,
-            "visibility": true
+            "visibility": true,
+            "position": "9"
         }
     },
     {
@@ -4065,7 +4310,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_14-10.jpg",
             "page": "page 10",
             "memoir": 40014,
-            "visibility": true
+            "visibility": true,
+            "position": "10"
         }
     },
     {
@@ -4079,7 +4325,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-01.jpg",
             "page": "page 01",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -4093,7 +4340,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-02.jpg",
             "page": "page 02",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -4107,7 +4355,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-03.jpg",
             "page": "page 03",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -4121,7 +4370,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-04.jpg",
             "page": "page 04",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -4135,7 +4385,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-05.jpg",
             "page": "page 05",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -4149,7 +4400,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-06.jpg",
             "page": "page 06",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -4163,7 +4415,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-07.jpg",
             "page": "page 07",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -4177,7 +4430,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-08.jpg",
             "page": "page 08",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "8"
         }
     },
     {
@@ -4191,7 +4445,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-09.jpg",
             "page": "page 09",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "9"
         }
     },
     {
@@ -4205,7 +4460,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-10.jpg",
             "page": "page 10",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "10"
         }
     },
     {
@@ -4219,7 +4475,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-11.jpg",
             "page": "page 11",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "11"
         }
     },
     {
@@ -4233,7 +4490,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-12.jpg",
             "page": "page 12",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "12"
         }
     },
     {
@@ -4247,7 +4505,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-13.jpg",
             "page": "page 13",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "13"
         }
     },
     {
@@ -4261,7 +4520,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-14.jpg",
             "page": "page 14",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "14"
         }
     },
     {
@@ -4275,7 +4535,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_15-15.jpg",
             "page": "page 15",
             "memoir": 40015,
-            "visibility": true
+            "visibility": true,
+            "position": "15"
         }
     },
     {
@@ -4289,7 +4550,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-01.jpg",
             "page": "page 01",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -4303,7 +4565,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-02.jpg",
             "page": "page 02",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -4317,7 +4580,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-03.jpg",
             "page": "page 03",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -4331,7 +4595,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-04.jpg",
             "page": "page 04",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -4345,7 +4610,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-05.jpg",
             "page": "page 05",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -4359,7 +4625,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-06.jpg",
             "page": "page 06",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -4373,7 +4640,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-07.jpg",
             "page": "page 07",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -4387,7 +4655,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-08.jpg",
             "page": "page 08",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "8"
         }
     },
     {
@@ -4401,7 +4670,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-09.jpg",
             "page": "page 09",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "9"
         }
     },
     {
@@ -4415,7 +4685,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-10.jpg",
             "page": "page 10",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "10"
         }
     },
     {
@@ -4429,7 +4700,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-11.jpg",
             "page": "page 11",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "11"
         }
     },
     {
@@ -4443,7 +4715,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-12.jpg",
             "page": "page 12",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "12"
         }
     },
     {
@@ -4457,7 +4730,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-13.jpg",
             "page": "page 13",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "13"
         }
     },
     {
@@ -4471,7 +4745,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-14.jpg",
             "page": "page 14",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "14"
         }
     },
     {
@@ -4485,7 +4760,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-15.jpg",
             "page": "page 15",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "15"
         }
     },
     {
@@ -4499,7 +4775,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-16.jpg",
             "page": "page 16",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "16"
         }
     },
     {
@@ -4513,7 +4790,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-17.jpg",
             "page": "page 17",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "17"
         }
     },
     {
@@ -4527,7 +4805,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-18.jpg",
             "page": "page 18",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "18"
         }
     },
     {
@@ -4541,7 +4820,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-19.jpg",
             "page": "page 19",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "19"
         }
     },
     {
@@ -4555,7 +4835,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-20.jpg",
             "page": "page 20",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "20"
         }
     },
     {
@@ -4569,7 +4850,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_16-21.jpg",
             "page": "page 21",
             "memoir": 40016,
-            "visibility": true
+            "visibility": true,
+            "position": "21"
         }
     },
     {
@@ -4583,7 +4865,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_17-1.jpg",
             "page": "page 1",
             "memoir": 40017,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -4597,7 +4880,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_17-2.jpg",
             "page": "page 2",
             "memoir": 40017,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -4611,7 +4895,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_17-3.jpg",
             "page": "page 3",
             "memoir": 40017,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -4625,7 +4910,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_17-4.jpg",
             "page": "page 4",
             "memoir": 40017,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -4639,7 +4925,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_17-5.jpg",
             "page": "page 5",
             "memoir": 40017,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -4653,7 +4940,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_17-6.jpg",
             "page": "page 6",
             "memoir": 40017,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -4667,7 +4955,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_17-7.jpg",
             "page": "page 7",
             "memoir": 40017,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -4681,7 +4970,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_17-8.jpg",
             "page": "page 8",
             "memoir": 40017,
-            "visibility": true
+            "visibility": true,
+            "position": "8"
         }
     },
     {
@@ -4695,7 +4985,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_18-1.jpg",
             "page": "page 1",
             "memoir": 40018,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -4709,7 +5000,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_18-2.jpg",
             "page": "page 2",
             "memoir": 40018,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -4723,7 +5015,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_18-3.jpg",
             "page": "page 3",
             "memoir": 40018,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -4737,7 +5030,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_18-4.jpg",
             "page": "page 4",
             "memoir": 40018,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -4751,7 +5045,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_18-5.jpg",
             "page": "page 5",
             "memoir": 40018,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -4765,7 +5060,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_18-6.jpg",
             "page": "page 6",
             "memoir": 40018,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -4779,7 +5075,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_18-7.jpg",
             "page": "page 7",
             "memoir": 40018,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -4793,7 +5090,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_19-1.jpg",
             "page": "page 1",
             "memoir": 40019,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -4807,7 +5105,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_19-2.jpg",
             "page": "page 2",
             "memoir": 40019,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -4821,7 +5120,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_19-3.jpg",
             "page": "page 3",
             "memoir": 40019,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -4835,7 +5135,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_20-1.jpg",
             "page": "page 1",
             "memoir": 40020,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -4849,7 +5150,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_20-2.jpg",
             "page": "page 2",
             "memoir": 40020,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -4863,7 +5165,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_20-3.jpg",
             "page": "page 3",
             "memoir": 40020,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -4877,7 +5180,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_21-1.jpg",
             "page": "page 1",
             "memoir": 40021,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -4891,7 +5195,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_22-01.jpg",
             "page": "page 01",
             "memoir": 40022,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -4905,7 +5210,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_22-02.jpg",
             "page": "page 02",
             "memoir": 40022,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -4919,7 +5225,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_22-03.jpg",
             "page": "page 03",
             "memoir": 40022,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -4933,7 +5240,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_22-04.jpg",
             "page": "page 04",
             "memoir": 40022,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -4947,7 +5255,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_22-05.jpg",
             "page": "page 05",
             "memoir": 40022,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -4961,7 +5270,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_22-06.jpg",
             "page": "page 06",
             "memoir": 40022,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -4975,7 +5285,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_22-07.jpg",
             "page": "page 07",
             "memoir": 40022,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -4989,7 +5300,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_22-08.jpg",
             "page": "page 08",
             "memoir": 40022,
-            "visibility": true
+            "visibility": true,
+            "position": "8"
         }
     },
     {
@@ -5003,7 +5315,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_22-09.jpg",
             "page": "page 09",
             "memoir": 40022,
-            "visibility": true
+            "visibility": true,
+            "position": "9"
         }
     },
     {
@@ -5017,7 +5330,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_22-10.jpg",
             "page": "page 10",
             "memoir": 40022,
-            "visibility": true
+            "visibility": true,
+            "position": "10"
         }
     },
     {
@@ -5031,7 +5345,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_23-1.jpg",
             "page": "page 1",
             "memoir": 40023,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -5045,7 +5360,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_23-2.jpg",
             "page": "page 2",
             "memoir": 40023,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -5059,7 +5375,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_24-1.jpg",
             "page": "page 1",
             "memoir": 40024,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -5073,7 +5390,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_24-2.jpg",
             "page": "page 2",
             "memoir": 40024,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -5087,7 +5405,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_24-3.jpg",
             "page": "page 3",
             "memoir": 40024,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -5101,7 +5420,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_24-4.jpg",
             "page": "page 4",
             "memoir": 40024,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -5115,7 +5435,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_25-01.jpg",
             "page": "page 01",
             "memoir": 40025,
-            "visibility": true
+            "visibility": true,
+            "position": "1"
         }
     },
     {
@@ -5129,7 +5450,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_25-02.jpg",
             "page": "page 02",
             "memoir": 40025,
-            "visibility": true
+            "visibility": true,
+            "position": "2"
         }
     },
     {
@@ -5143,7 +5465,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_25-03.jpg",
             "page": "page 03",
             "memoir": 40025,
-            "visibility": true
+            "visibility": true,
+            "position": "3"
         }
     },
     {
@@ -5157,7 +5480,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_25-04.jpg",
             "page": "page 04",
             "memoir": 40025,
-            "visibility": true
+            "visibility": true,
+            "position": "4"
         }
     },
     {
@@ -5171,7 +5495,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_25-05.jpg",
             "page": "page 05",
             "memoir": 40025,
-            "visibility": true
+            "visibility": true,
+            "position": "5"
         }
     },
     {
@@ -5185,7 +5510,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_25-06.jpg",
             "page": "page 06",
             "memoir": 40025,
-            "visibility": true
+            "visibility": true,
+            "position": "6"
         }
     },
     {
@@ -5199,7 +5525,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_25-07.jpg",
             "page": "page 07",
             "memoir": 40025,
-            "visibility": true
+            "visibility": true,
+            "position": "7"
         }
     },
     {
@@ -5213,7 +5540,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_25-08.jpg",
             "page": "page 08",
             "memoir": 40025,
-            "visibility": true
+            "visibility": true,
+            "position": "8"
         }
     },
     {
@@ -5227,7 +5555,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_25-09.jpg",
             "page": "page 09",
             "memoir": 40025,
-            "visibility": true
+            "visibility": true,
+            "position": "9"
         }
     },
     {
@@ -5241,7 +5570,8 @@
             "thumb_url": "https://data.dh.gu.se/moravian/thumbs/Stockholm/MemStockholm_25-10.jpg",
             "page": "page 10",
             "memoir": 40025,
-            "visibility": true
+            "visibility": true,
+            "position": "10"
         }
     },
     {

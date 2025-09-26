@@ -84,6 +84,16 @@
         {% else %}
         <p>No transcription available.</p>
         {% endif %}
+        {% if prev_id %}
+        <div class="next-button">
+            <a href="{% url 'detail_image' memoir.id prev_id %}">previous</a>
+        </div>
+        {% endif %}
+        {% if next_id %}
+        <div class="next-button">
+            <a href="{% url 'detail_image' memoir.id next_id %}">next</a>
+        </div>
+        {% endif %}
         {% if request.user.is_authenticated %}
         <div class="edit-button"><a href="https://moravian.dh.gu.se/admin/trxnviewer/memoirimage/{{ image.id }}">Edit
                 transcription</a></div>

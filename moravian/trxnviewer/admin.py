@@ -44,6 +44,7 @@ class MemoirImageAdmin(admin.ModelAdmin):
                     'updated']
     search_fields = ['memoir__author__name', 'page']
     readonly_fields = ['image_preview', 'modified', 'updated']
+    ordering = ['memoir', 'position', 'pk']
     inlines = [
         TranscriptionInline
     ]

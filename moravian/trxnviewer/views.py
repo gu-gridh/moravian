@@ -91,7 +91,18 @@ def detail_memoir(request, memoir_id):
 def detail_image(request, memoir_id, image_id):
     image = get_object_or_404(MemoirImage, pk=image_id, memoir=memoir_id)
     memoir = get_object_or_404(Memoir, pk=memoir_id)
+    prev_id = (MemoirImage.objects
+               .filter(memoir=memoir, visibility=True,
+                       position__lt=image.position)
+               .order_by("-position", "-pk")
+               .values_list("pk", flat=True).first())
+    next_id = (MemoirImage.objects
+               .filter(memoir=memoir, visibility=True,
+                       position__gt=image.position)
+               .order_by("position", "pk")
+               .values_list("pk", flat=True).first())
     search_query = request.GET.get('query', '')
 
-    context = {"memoir": memoir, "image": image, "search_query": search_query}
+    context = {"memoir": memoir, "image": image, "prev_id": prev_id,
+               "next_id": next_id, "search_query": search_query}
     return render(request, "trxnviewer/detail_image.html", context)

@@ -1,4 +1,6 @@
 from django.db import models
+from django.db.models import Q, Max
+from django.db.models.functions import Coalesce
 from django.conf import settings
 from django_prose_editor.fields import ProseEditorField
 from django.core.exceptions import ValidationError
@@ -66,13 +68,37 @@ class Memoir(EntityMixin):
 class MemoirImage(EntityMixin):
     image_url = models.URLField(blank=True)
     thumb_url = models.URLField(blank=True)
-    visibility = models.BooleanField(default=True)
+    visibility = models.BooleanField(default=True, db_index=True)
     page = models.CharField(max_length=25, null=True, blank=True)
     memoir = models.ForeignKey(Memoir, on_delete=models.CASCADE,
                                null=True, blank=True, related_name='images')
+    position = models.PositiveIntegerField(default=0, db_index=True)
+
+    class Meta:
+        ordering = ["memoir", "position", "pk"]
+        # make position unique
+        constraints = [
+            models.UniqueConstraint(
+                fields=["memoir", "position"],
+                name="uniq_position_per_memoir",
+                condition=Q(memoir__isnull=False),
+            ),
+        ]
+        indexes = [
+            models.Index(fields=["memoir", "visibility", "position"]),
+        ]
+
+    def save(self, *args, **kwargs):
+        # If new or position is 0, append at end of its memoir
+        if (self.pk is None or self.position in (None, 0)) and self.memoir_id:
+            last = (MemoirImage.objects
+                    .filter(memoir=self.memoir)
+                    .aggregate(m=Coalesce(Max("position"), 0))["m"])
+            self.position = last + 1
+        super().save(*args, **kwargs)
 
     def __str__(self):
-        return self.page
+        return self.page or f"page of Memoir Image {self.pk}"
 
 
 class Transcription(EntityMixin):
