@@ -150,11 +150,12 @@ PAGES_PROJECT_INFO = {
         {"label": "Contact", "url": "https://www.gu.se/en/digital-humanities/about-us/contact", "type": "site-link"},
     ],
     "PARTNERS": [
-        {"label": "Bucknell University", "url": "https://www.bucknell.edu/"},
+        {"label": "Moravian University", "url": "https://www.moravian.edu/"},
         {"label": "GU / GRIDH", "url": "https://dh.gu.se/"},
     ],
     "EXTRA_NAV_URLS": [
         {"label": "Swedish Memoirs", "url": "/memoirs"},
+        {"label": "Moravian Lives ↗", "url": "https://digitalhistory.moravian.edu/s/moravianlivesproject/page/home"},
         {"label": "Contact", "url": "https://www.gu.se/en/digital-humanities/about-us/contact"},
     ],
 }
