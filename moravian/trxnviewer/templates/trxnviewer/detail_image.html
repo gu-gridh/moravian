@@ -87,6 +87,9 @@
         {% else %}
         <p>No transcription available.</p>
         {% endif %}
+        <div class="image-button">
+            <a href="{{ image.image_url }}">Download image file</a>
+        </div>
         {% if prev_id %}
         <div class="next-button">
             <a href="{% url 'detail_image' memoir.id prev_id %}">previous</a>
