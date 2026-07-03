@@ -5,7 +5,7 @@ import { resolve } from 'path';
 export default defineConfig({
   publicDir: 'public/',
   root: resolve(__dirname, 'moravian/assets/'),
-  base: 'static/',
+  base: '/static/',
   build: {
     outDir: resolve(__dirname, 'moravian/static/'),
     emptyOutDir: true,
@@ -18,8 +18,8 @@ export default defineConfig({
     viteStaticCopy({
       targets: [
         {
-          src: resolve(__dirname, 'moravian/assets/images/openseadragon/'),
-          dest: 'assets/images/'
+          src: resolve(__dirname, 'moravian/assets/images/'),
+          dest: 'assets/'
         }
       ]
     })

@@ -1,0 +1,12 @@
+{% extends "pages/base.html" %}
+
+{% block title %}{{ page.title }}{% endblock %}
+
+{% block content %}
+<h1>{{ page.title }}</h1>
+<div class="content">{{ page.content|safe }}</div>
+<div class="logos">
+    <img id="gridh-logo" src="/static/assets/images/logos/gridh-en-alpha.png" loading="lazy" alt="GRIDH Logo"/>
+    <img id="moravian-logo" src="/static/assets/images/logos/DIGITAL-Moravian-TwoLineWordmark-Blue.png" loading="lazy" alt="Moravian University Logo"/>
+</div>
+{% endblock %}
