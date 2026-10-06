@@ -8,15 +8,7 @@ body {
     background-size: 100%;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
+a, a:visited, a:hover {
     text-decoration: none;
 }
 
@@ -106,6 +98,16 @@ nav ul li a:hover {
     border-bottom: 2px solid var(--contrast-color);
 }
 
+.external-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2em;
+  }
+  
+  .external-link::after {
+    content: "↗";
+    line-height: 1;
+  }
 
 button[type=submit] {
     background-color: var(--contrast-color);
@@ -194,7 +196,9 @@ h4 {
     margin-bottom: 5px;
 }
 
-
+.image-info-container a {
+    color: inherit;
+}
 
 .image-info-container h4 {
     margin-top: 30px;
@@ -204,7 +208,7 @@ h4 {
 }
 
 .transcription {
-    margin-top: 5px;
+    margin: 5px 0 1rem 0;
 }
 
 .transcription h2 {
@@ -536,11 +540,22 @@ span.highlight {
     display: flex;
 }
 
+.next-button-container {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.next-button-container > * + * {
+    border-left: 1px solid var(--contrast-color);
+    padding-left: 1rem;
+  }
+
 .logos {
     display: flex;
-    padding: 1rem 0;
+    padding: 2rem 0 1rem 0;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 #gridh-logo {

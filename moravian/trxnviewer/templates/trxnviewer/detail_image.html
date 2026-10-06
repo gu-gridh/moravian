@@ -90,15 +90,19 @@
         <div class="image-button">
             <a href="{{ image.image_url }}">Download image file</a>
         </div>
-        {% if prev_id %}
-        <div class="next-button">
-            <a href="{% url 'detail_image' memoir.id prev_id %}">previous</a>
-        </div>
-        {% endif %}
-        {% if next_id %}
-        <div class="next-button">
-            <a href="{% url 'detail_image' memoir.id next_id %}">next</a>
-        </div>
+        {% if prev_id or next_id %}
+            <div class="next-button-container">
+            {% if prev_id %}
+                <div class="next-button">
+                    <a href="{% url 'detail_image' memoir.id prev_id %}">previous</a>
+                </div>
+            {% endif %}
+            {% if next_id %}
+                <div class="next-button">
+                    <a href="{% url 'detail_image' memoir.id next_id %}">next</a>
+                </div>
+            {% endif %}
+            </div>
         {% endif %}
         {% if request.user.is_authenticated %}
         <div class="edit-button"><a href="https://moravian.dh.gu.se/admin/trxnviewer/memoirimage/{{ image.id }}">Edit
