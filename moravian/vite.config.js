@@ -4,21 +4,21 @@ import { resolve } from 'path';
 
 export default defineConfig({
   publicDir: 'public/',
-  root: resolve(__dirname, 'moravian/assets/'),
+  root: resolve(import.meta.dirname, 'moravian/assets/'),
   base: '/static/',
   build: {
-    outDir: resolve(__dirname, 'moravian/static/'),
+    outDir: resolve(import.meta.dirname, 'moravian/static/'),
     emptyOutDir: true,
     manifest: 'manifest.json',
     rollupOptions: {
-      input: resolve(__dirname, 'moravian/assets/js/index.js'),
+      input: resolve(import.meta.dirname, 'moravian/assets/js/index.js'),
     }
   },
   plugins: [
     viteStaticCopy({
       targets: [
         {
-          src: resolve(__dirname, 'moravian/assets/images/'),
+          src: resolve(import.meta.dirname, 'moravian/assets/images/'),
           dest: 'assets/'
         }
       ]
