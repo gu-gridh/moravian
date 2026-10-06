@@ -4,7 +4,7 @@ Django<5.3
 gunicorn<24.0
 djangorestframework>=3.16.0, <4
 django-cors-headers>=4.7.0, <5
-git+https://github.com/gu-gridh/gridh-pages.git@v0.4.3#egg=gridh_pages
+git+https://github.com/gu-gridh/gridh-pages.git@v0.4.4#egg=gridh_pages
 # dev requirements
 django-vite<3.2
 django-debug-toolbar<5.3
